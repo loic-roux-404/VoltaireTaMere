@@ -1,0 +1,4 @@
+['est', 'intéressée', 'de'] intéressée
+['presque', 'à'] à
+['nous', 'débutons'] débutons
+['pallier', 'une'] pallier

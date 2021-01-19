@@ -9,7 +9,7 @@ Interface simplifié;
 3ème génération d'algorithme; 
 Nouvelle architecture HellFire plus performante; 
 
-DEMO: indisponible actuellement
+DEMO: https://youtu.be/plQ6ko-PKJc
 
 INSTALLATION:
 Téléchargé simplement l'installateur (VTM_install.exe) ou téléchargé tous les fichiers et placés ensemble dans un même répertoire.

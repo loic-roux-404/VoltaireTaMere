@@ -14,8 +14,8 @@ Nouvelle architecture HellFire plus performante;
 DEMO: https://youtu.be/plQ6ko-PKJc
 
 INSTALLATION:
-Téléchargé simplement l'installateur (VTM_install.exe) ou téléchargé tous les fichiers et placés ensemble dans un même répertoire.
-liens de l'installateur (trop lourd pr GitHub): https://www.mediafire.com/file/usucctvigtwj3rn/VTM_Installer.exe/file
+Téléchargé simplement l'installateur ou téléchargé tous les fichiers et placés ensemble dans un même répertoire.
+liens de l'installateur (trop lourd pr GitHub): https://www.mediafire.com/file/fdzs575ra9wtfd0/VoltaireTaMere_install.exe/file
 
 ATTENTION:
 Vous avez besoin de Google Chrome, Firefox, Edge ou Opera pour que le bot fonctionne ( mais bon t'en as pas un des 4 t'abuse la)!

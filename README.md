@@ -18,7 +18,7 @@ Téléchargé simplement l'installateur ou téléchargé tous les fichiers et pl
 liens de l'installateur (trop lourd pr GitHub): https://www.mediafire.com/file/vhm3yo7eae8btrt/VoltaireTaMere_install.exe/file
 
 ATTENTION:
-Vous avez besoin de Google Chrome, Firefox ou Opera pour que le bot fonctionne ( mais bon t'en as pas un des 4 t'abuse la)!
+Vous avez besoin de Google Chrome, Firefox ou Opera pour que le bot fonctionne ( mais bon t'en as pas un des 3 t'abuse la)!
 L’auto-login ne fonctionne pas avec  Firefox.
 
 Une console Windows va s’ouvrir ne pas la fermer lorsque vous utilisé le programme, réduisez la simplement. 

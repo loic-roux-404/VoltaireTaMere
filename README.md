@@ -15,7 +15,7 @@ DEMO: https://youtu.be/plQ6ko-PKJc
 
 INSTALLATION:
 Téléchargé simplement l'installateur ou téléchargé tous les fichiers et placés ensemble dans un même répertoire.
-liens de l'installateur (trop lourd pr GitHub): https://www.mediafire.com/file/vhm3yo7eae8btrt/VoltaireTaMere_install.exe/file
+liens de l'installateur (trop lourd pr GitHub): https://sites.google.com/view/voltairetamere/accueil
 
 ATTENTION:
 Vous avez besoin de Google Chrome, Firefox ou Opera pour que le bot fonctionne ( mais bon t'en as pas un des 3 t'abuse la)!

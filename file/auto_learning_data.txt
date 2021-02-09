@@ -2,3 +2,4 @@
 ['presque', 'à'] à
 ['nous', 'débutons'] débutons
 ['pallier', 'une'] pallier
+['tout','None'] suite

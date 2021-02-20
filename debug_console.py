@@ -1,8 +1,8 @@
 import os
-from Question import Question, auto_learning
+from Question import Question, auto_learning, found_matche
 from File import Module
 from selenium import webdriver
-from routine import BOT, MANUAL
+from routine import BOT
 
 module_load = None
 driver_ = None
@@ -21,17 +21,18 @@ def split_Word(String):
     return List_From_String[0: len(List_From_String)-1]
 
 class cmd:
-    class info:
-        def info(self):
+    class help:
+        def help(self):
             print("/*******************\\")
             print("run: run basic process")
             print("load: load driver or file of module")
             print("open_file: open file in file foldier")
             print("learning: run process of auto learning")
+            print("get: print information or data")
             print("\\*******************/")
-
+    
     class run:
-        def info(self):
+        def help(self):
             print("/*******************\\")
             print("question: test error detetction process")
             print("bot: run bot routine one time")
@@ -50,18 +51,15 @@ class cmd:
                 BOT(driver_, module_load.data, False)
         def manual(self):
             global module_load
-            global driver_
             if module_load == None:
                 print("VoltaireTaMere_debug>no module load")
-            elif driver_ == None:
-                print("VoltaireTaMere_debug>no driver load")
             else:
-                MANUAL(driver_, module_load.data, False)
+                found_matche(input("phrase>"), module_load.data)
         def meven(self):
             print("t'es trop BG")
-
+    
     class load:
-        def info(self):
+        def help(self):
             print("/*******************\\")
             print("module: load extraction data process from path")
             print("driver: load driver and connect")
@@ -84,6 +82,13 @@ class cmd:
             driver_.find_element_by_id("login-btn").click()
     
     class open_file:
+        def help(self):
+            print("/*******************\\")
+            print("debug: open file with all output of this session")
+            print("log: open file with login information")
+            print("learning_data: open file with learned data")
+            print("learning_match: open file with learned sentence")
+            print("\\*******************/")
         def debug(self):
             os.startfile(".\\file\\DEBUG.txt")
         def log(self):
@@ -94,7 +99,7 @@ class cmd:
             os.startfile(".\\file\\auto_learning_match.txt")
     
     class learning:
-        def info(self):
+        def help(self):
             print("/*******************\\")
             print("learn_match: add match in mermory")
             print("learn_data: add error in memory")
@@ -109,6 +114,25 @@ class cmd:
             print(auto_learning().memory_data(input("list>")))
         def memory_match(self):
             print(auto_learning().memory_match(input("sentence>")))
+    
+    class get:
+        def help(self):
+            print("/*******************\\")
+            print("sentence: print sentence on screen")
+            print("data: print loaded data")
+            print("\\*******************/")
+        def sentence(self):
+            if driver_ == None:
+                print("VoltaireTaMere_debug>no driver load")
+            else:
+                print(driver_.find_element_by_class_name("sentence").text)
+        def data(self):
+            if module_load == None:
+                print("VoltaireTaMere_debug>no module load")
+            else:
+                print(module_load.data)
+    
+################################################################################
 
 while  1:
     command = input("VoltaireTaMere_debug>")
@@ -116,10 +140,10 @@ while  1:
         if driver_ != None:
             driver_.close()
         exit()
-    if command == "info":
-        command += " info"
     try:
         command = split_Word(command)
+        if len(command) == 1:
+            command += ["help"]
         getattr(getattr(cmd(), command[0]), command[1])("")
     except:
-        print("unknown command, try \"info\" for more informations")
+        print("unknown command, try \"help\" for more informations")

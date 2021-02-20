@@ -62,7 +62,7 @@ class Question:
         print_debug("[find_err] Close Match CORRECT","green")
 
         if list_String_Err == []:
-            list_String_Err = [Words_err[0]+"None"]
+            list_String_Err = Words_err
 
         if "'" in list_String_Err[0]:
             try:

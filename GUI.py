@@ -139,7 +139,8 @@ class GUI:
         self.SousMenuAide = Menu(self.menuAide, fg='#ffffff', bg='#2c2e30',activebackground='#a2d417')
         self.SousMenuAide.add_command(label='Notice', command = lambda: os.startfile(".\\file\\NOTICE.pdf"))
         self.SousMenuAide.add_command(label='réinitialiser Login', command = lambda: [ self.root.destroy(), Login()])
-        self.SousMenuAide.add_command(label='OverClock', command = lambda : [self.time_next.set(1), print_debug("[MAIN] Overclock ON", "yellow"), self.log.insert("end","Overclock ON\n", "yellow")])
+        self.SousMenuAide.add_command(label='OverClock', command = lambda : [self.time_next.set(1), print_debug("[MAIN] Overclock ON", "yellow"), 
+                                                                            self.log.insert("end","Overclock ON\n", "yellow")])
         self.menuAide.configure(menu=self.SousMenuAide)
 
     def Menu_1(self, BG):
@@ -204,7 +205,7 @@ class GUI:
         except:
             self.module = Module(".\\Modules\\Custom\\Module1.txt")
         
-        if self.module == []:
+        if self.module.data == []:
             self.log.insert("end","erreur aucun fichier chargé\n","red")
         else:
             self.log.insert("end","fichier correctement chargé\n","green")
@@ -222,7 +223,6 @@ class GUI:
             print_debug("AUCUN  FICHIER CHARGÉ","red")
 
     def ROUTINE_BOT(self):
-        print(self.bot_on)
         while self.bot_on:
             self.log.delete(1.0,"end")
             return_tag = BOT(self.driver, self.module.data, self.module.test_blanc)

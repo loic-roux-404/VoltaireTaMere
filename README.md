@@ -12,7 +12,7 @@ Nouvelle architecture HellFire plus performante;
 DEMO: https://youtu.be/plQ6ko-PKJc
 
 INSTALLATION:
-Téléchargé simplement l'installateur ou téléchargé tous les fichiers et placés ensemble dans un même répertoire.
+Téléchargé simplement l'installateur ou téléchargé tous les fichiers (Executable non compris sur GitHub) et placés ensemble dans un même répertoire.
 liens de l'installateur (trop lourd pr GitHub): https://sites.google.com/view/voltairetamere/accueil
 
 ATTENTION:

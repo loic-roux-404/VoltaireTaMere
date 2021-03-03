@@ -6,6 +6,45 @@ def print_debug(string, color):
     f.write(string+"\n")
     f.close()
 
+def found_data(file, name, return_type):
+    f = open(file, "r", encoding="utf-8")
+    r = f.read()
+    try:
+        data = r[r.index(name)+len(name+":"): r.index("\n", r.index(name))]
+    except:
+        data = r[r.index(name)+len(name+":"):]
+
+    if return_type == "int":
+        return int(data)
+    else:
+        return data
+
+def write_data(file, name, data):
+    f = open(file, "r", encoding="utf-8")
+    r = f.read()
+    f.close()
+    f = open(file, "w", encoding="utf-8")
+    try:
+        r = r[: r.index(name)+len(name+":")] + str(data) + r[r.index("\n", r.index(name)):]
+        print_debug("[write_data] data written succesfully","green")
+    except:
+        print_debug("[write_data] failed to find: "+str(name), "red")
+    f.write(r)
+    f.close()
+
+def connect(driver):
+    logIn= found_data(".\\file\\log.txt", "login","str")
+    mdp = found_data(".\\file\\log.txt", "mdp","str")
+    try:
+        driver.find_element_by_id("btn_home_sortir").click()
+    except:
+        None
+    driver.get("https://www.projet-voltaire.fr/voltaire/com.woonoz.gwt.woonoz.Voltaire/Voltaire.html?returnUrl=www.projet-voltaire.fr/choix-parcours/&applicationCode=pv")
+    if found_data("./file/options.txt", "auto_login", "int"):
+        driver.find_element_by_id("user_pseudonym").send_keys(logIn)
+        driver.find_element_by_id("user_password").send_keys(mdp)
+        driver.find_element_by_id("login-btn").click()
+    
 class Module:
     def __init__(self,path):
         self.path = path

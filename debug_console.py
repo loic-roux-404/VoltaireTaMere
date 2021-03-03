@@ -3,6 +3,8 @@ from Question import Question, auto_learning, found_matche
 from File import Module
 from selenium import webdriver
 from routine import BOT
+from init import pop_up
+from GUI import GUI
 
 module_load = None
 driver_ = None
@@ -48,15 +50,25 @@ class cmd:
             elif driver_ == None:
                 print("VoltaireTaMere_debug>no driver load")
             else:
-                BOT(driver_, module_load.data, False)
+                BOT(driver_, module_load.data, False, 100)
         def manual(self):
             global module_load
             if module_load == None:
                 print("VoltaireTaMere_debug>no module load")
             else:
                 found_matche(input("phrase>"), module_load.data)
+        def pop_up(self):
+            w = pop_up(input("command>"))
+            w.start_root()
+            w.root.mainloop()
+        def gui(self):
+            gui = GUI(None)
+            gui.Menu_1(gui.BG1)
+            gui.root.mainloop()
         def meven(self):
             print("t'es trop BG")
+        def elizium(self):
+            print("FDP")
     
     class load:
         def help(self):
@@ -133,7 +145,6 @@ class cmd:
                 print(module_load.data)
     
 ################################################################################
-
 while  1:
     command = input("VoltaireTaMere_debug>")
     if command == "stop":

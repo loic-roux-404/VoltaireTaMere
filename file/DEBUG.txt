@@ -1,1 +1,2864 @@
-None
+[Module] erreur no file found
+[Module] Fichier [./Modules/Excellence/Module9.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'était un enfant qui aimait aux corneilles.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[Module] Fichier [./Modules/Excellence/Module9.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La loi du 9 décembre 1905 proclame la séparation des Églises et de l'État en France.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Dès que le bébé sera né, ses grands‑parents prendront le train et .
+[found_matche] close matches: ['Dès que le bébé sera né, ses grands-parents prendront le train et <accourront>.']
+[find_err] err: ['accourront']
+[find_err] phrase: ['Dès', 'que', 'le', 'bébé', 'sera', 'né', 'ses', 'grands-', 'parents', 'prendront', 'le', 'train', 'et']
+[find_err] matche: ['Dès', 'que', 'le', 'bébé', 'sera', 'né', 'ses', 'grands-', 'parents', 'prendront', 'le', 'train', 'et', 'accourront']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['accourront']
+[find_err] list_String_Corr: ['accourront']
+[find_err] list_String_Err: ['accourront']
+[found_matche] CLOSE MATCH FOUND: Dès que le bébé sera né, ses grands-parents prendront le train et <accourront>.
+[found_matche] ERROR: accourront
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['accourront']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Des nouvelles du vaisseau spatial ? Les dernières que nous en avons n'étaient pas bonnes.
+[found_matche] close matches: ["Des nouvelles du vaisseau spatial ? Les dernières que nous en avons <reçues> n'étaient pas bonnes."]
+[find_err] err: ['reçues']
+[find_err] phrase: ['Des', 'nouvelles', 'du', 'vaisseau', 'spatial', '?', 'Les', 'dernières', 'que', 'nous', 'en', 'avons', "n'", 'étaient', 'pas', 'bonnes']
+[find_err] matche: ['Des', 'nouvelles', 'du', 'vaisseau', 'spatial', '?', 'Les', 'dernières', 'que', 'nous', 'en', 'avons', 'reçues', "n'", 'étaient', 'pas', 'bonnes']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['reçues']
+[find_err] list_String_Corr: ['reçues']
+[find_err] list_String_Err: ['reçues']
+[found_matche] CLOSE MATCH FOUND: Des nouvelles du vaisseau spatial ? Les dernières que nous en avons <reçues> n'étaient pas bonnes.
+[found_matche] ERROR: reçues
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['reçues']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Si tu pouvais, ne ‑ce qu'une fois, reconnaître tes torts !
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 3 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est ce prêtre qui a bénit leur mariage.
+[found_matche] close matches: ["C'est ce prêtre qui a <béni> leur mariage."]
+[find_err] err: ['béni']
+[find_err] phrase: ["C'", 'est', 'ce', 'prêtre', 'qui', 'a', 'bénit', 'leur', 'mariage']
+[find_err] matche: ["C'", 'est', 'ce', 'prêtre', 'qui', 'a', 'béni', 'leur', 'mariage']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['béni']
+[find_err] list_String_Corr: ['béni']
+[find_err] list_String_Err: ['bénit']
+[found_matche] CLOSE MATCH FOUND: C'est ce prêtre qui a <béni> leur mariage.
+[found_matche] ERROR: bénit
+[BOT] EXECUTION CLICK DONE
+return_tag: ['bénit']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les de ces vitraux sont magnifiques.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 1 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette belle Église est classée au titre des monuments historiques.
+[found_matche] close matches: ['Cette belle <église> est classée au titre des monuments historiques.']
+[find_err] err: ['église']
+[find_err] phrase: ['Cette', 'belle', 'Église', 'est', 'classée', 'au', 'titre', 'des', 'monuments', 'historiques']
+[find_err] matche: ['Cette', 'belle', 'église', 'est', 'classée', 'au', 'titre', 'des', 'monuments', 'historiques']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['église']
+[find_err] list_String_Corr: ['église']
+[find_err] list_String_Err: ['Église']
+[found_matche] CLOSE MATCH FOUND: Cette belle <église> est classée au titre des monuments historiques.
+[found_matche] ERROR: Église
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Église']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il ne s'attendait pas à ce changement de situation.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 1 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette décision ressortit à la municipalité.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est trop grand, je trouve que le col baîlle.
+[found_matche] close matches: ["C'est trop grand, je trouve que le col <bâille>."]
+[find_err] err: ['bâille']
+[find_err] phrase: ["C'", 'est', 'trop', 'grand', 'je', 'trouve', 'que', 'le', 'col', 'baîlle']
+[find_err] matche: ["C'", 'est', 'trop', 'grand', 'je', 'trouve', 'que', 'le', 'col', 'bâille']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['bâille']
+[find_err] list_String_Corr: ['bâille']
+[find_err] list_String_Err: ['baîlle']
+[found_matche] CLOSE MATCH FOUND: C'est trop grand, je trouve que le col <bâille>.
+[found_matche] ERROR: baîlle
+[BOT] EXECUTION CLICK DONE
+return_tag: ['baîlle']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: soit celui qui m'a averti du danger !
+[found_matche] close matches: ["<Béni> soit celui qui m'a averti du danger !"]
+[find_err] err: ['Béni']
+[find_err] phrase: ['soit', 'celui', 'qui', "m'", 'a', 'averti', 'du', 'danger']
+[find_err] matche: ['Béni', 'soit', 'celui', 'qui', "m'", 'a', 'averti', 'du', 'danger']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Béni']
+[find_err] list_String_Corr: ['Béni']
+[find_err] list_String_Err: ['Béni']
+[found_matche] CLOSE MATCH FOUND: <Béni> soit celui qui m'a averti du danger !
+[found_matche] ERROR: Béni
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['Béni']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cet orage subi et violent a sévèrement endommagé les récoltes.
+[found_matche] close matches: ['Cet orage <subit> et violent a sévèrement endommagé les récoltes.']
+[find_err] err: ['subit']
+[find_err] phrase: ['Cet', 'orage', 'subi', 'et', 'violent', 'a', 'sévèrement', 'endommagé', 'les', 'récoltes']
+[find_err] matche: ['Cet', 'orage', 'subit', 'et', 'violent', 'a', 'sévèrement', 'endommagé', 'les', 'récoltes']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subit']
+[find_err] list_String_Corr: ['subit']
+[find_err] list_String_Err: ['subi']
+[found_matche] CLOSE MATCH FOUND: Cet orage <subit> et violent a sévèrement endommagé les récoltes.
+[found_matche] ERROR: subi
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subi']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: J'ai bien vu que tu essayais de bâiller discrètement !
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le calvaire que cet homme a subit pendant la guerre l'a hanté toute sa vie.
+[found_matche] close matches: ["Le calvaire que cet homme a <subi> pendant la guerre l'a hanté toute sa vie."]
+[find_err] err: ['subi']
+[find_err] phrase: ['Le', 'calvaire', 'que', 'cet', 'homme', 'a', 'subit', 'pendant', 'la', 'guerre', "l'", 'a', 'hanté', 'toute', 'sa', 'vie']
+[find_err] matche: ['Le', 'calvaire', 'que', 'cet', 'homme', 'a', 'subi', 'pendant', 'la', 'guerre', "l'", 'a', 'hanté', 'toute', 'sa', 'vie']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subi']
+[find_err] list_String_Corr: ['subi']
+[find_err] list_String_Err: ['subit']
+[found_matche] CLOSE MATCH FOUND: Le calvaire que cet homme a <subi> pendant la guerre l'a hanté toute sa vie.
+[found_matche] ERROR: subit
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subit']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Quand tu bâilles, n'oublie pas de mettre ta main devant la bouche », répète le papa à son petit garçon.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'opération qu'il a subie s'est très bien passée.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Vous me la belle avec vos promesses, mais j'ai les pieds sur terre, moi !
+[found_matche] close matches: ["Vous me la <baillez> belle avec vos promesses, mais j'ai les pieds sur terre, moi !"]
+[find_err] err: ['baillez']
+[find_err] phrase: ['Vous', 'me', 'la', 'belle', 'avec', 'vos', 'promesses', 'mais', "j'", 'ai', 'les', 'pieds', 'sur', 'terre', 'moi']
+[find_err] matche: ['Vous', 'me', 'la', 'baillez', 'belle', 'avec', 'vos', 'promesses', 'mais', "j'", 'ai', 'les', 'pieds', 'sur', 'terre', 'moi']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['baillez']
+[find_err] list_String_Corr: ['baillez']
+[find_err] list_String_Err: ['baillez']
+[found_matche] CLOSE MATCH FOUND: Vous me la <baillez> belle avec vos promesses, mais j'ai les pieds sur terre, moi !
+[found_matche] ERROR: baillez
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['baillez']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Tous les examens qu'il a montrent qu'il n'y a rien d'inquiétant.
+[found_matche] close matches: ["Tous les examens qu'il a <subis> montrent qu'il n'y a rien d'inquiétant."]
+[find_err] err: ['subis']
+[find_err] phrase: ['Tous', 'les', 'examens', "qu'", 'il', 'a', 'montrent', "qu'", 'il', "n'", 'y', 'a', 'rien', "d'", 'inquiétant']
+[find_err] matche: ['Tous', 'les', 'examens', "qu'", 'il', 'a', 'subis', 'montrent', "qu'", 'il', "n'", 'y', 'a', 'rien', "d'", 'inquiétant']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subis']
+[find_err] list_String_Corr: ['subis']
+[find_err] list_String_Err: ['subis']
+[found_matche] CLOSE MATCH FOUND: Tous les examens qu'il a <subis> montrent qu'il n'y a rien d'inquiétant.
+[found_matche] ERROR: subis
+[Module] Fichier [./Modules/Excellence/Module9.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Son départ a été subi, personne ne s'y attendait.
+[found_matche] close matches: ["Son départ a été <subit>, personne ne s'y attendait."]
+[find_err] err: ['subit']
+[find_err] phrase: ['Son', 'départ', 'a', 'été', 'subi', 'personne', 'ne', "s'", 'y', 'attendait']
+[find_err] matche: ['Son', 'départ', 'a', 'été', 'subit', 'personne', 'ne', "s'", 'y', 'attendait']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subit']
+[find_err] list_String_Corr: ['subit']
+[find_err] list_String_Err: ['subi']
+[found_matche] CLOSE MATCH FOUND: Son départ a été <subit>, personne ne s'y attendait.
+[found_matche] ERROR: subi
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subi']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'interrogatoire subit par le suspect a duré deux heures.
+[found_matche] close matches: ["L'interrogatoire <subi> par le suspect a duré deux heures."]
+[find_err] err: ['subi']
+[find_err] phrase: ["L'", 'interrogatoire', 'subit', 'par', 'le', 'suspect', 'a', 'duré', 'deux', 'heures']
+[find_err] matche: ["L'", 'interrogatoire', 'subi', 'par', 'le', 'suspect', 'a', 'duré', 'deux', 'heures']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subi']
+[find_err] list_String_Corr: ['subi']
+[find_err] list_String_Err: ['subit']
+[found_matche] CLOSE MATCH FOUND: L'interrogatoire <subi> par le suspect a duré deux heures.
+[found_matche] ERROR: subit
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subit']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Quand cessera le joug subit par ce peuple ?
+[found_matche] close matches: ['Quand cessera le joug <subi> par ce peuple ?']
+[find_err] err: ['subi']
+[find_err] phrase: ['Quand', 'cessera', 'le', 'joug', 'subit', 'par', 'ce', 'peuple']
+[find_err] matche: ['Quand', 'cessera', 'le', 'joug', 'subi', 'par', 'ce', 'peuple']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subi']
+[find_err] list_String_Corr: ['subi']
+[find_err] list_String_Err: ['subit']
+[found_matche] CLOSE MATCH FOUND: Quand cessera le joug <subi> par ce peuple ?
+[found_matche] ERROR: subit
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subit']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il n'a jamais pu oublier les sarcasmes subits pendant toute son enfance.
+[found_matche] close matches: ["Il n'a jamais pu oublier les sarcasmes <subis> pendant toute son enfance."]
+[find_err] err: ['subis']
+[find_err] phrase: ['Il', "n'", 'a', 'jamais', 'pu', 'oublier', 'les', 'sarcasmes', 'subits', 'pendant', 'toute', 'son', 'enfance']
+[find_err] matche: ['Il', "n'", 'a', 'jamais', 'pu', 'oublier', 'les', 'sarcasmes', 'subis', 'pendant', 'toute', 'son', 'enfance']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['subis']
+[find_err] list_String_Corr: ['subis']
+[find_err] list_String_Err: ['subits']
+[found_matche] CLOSE MATCH FOUND: Il n'a jamais pu oublier les sarcasmes <subis> pendant toute son enfance.
+[found_matche] ERROR: subits
+[BOT] EXECUTION CLICK DONE
+return_tag: ['subits']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Nous ne nous attendions pas à ce froid à cette époque de l'année.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 13 questions
+[Module] Fichier [./Modules/Excellence/Module10.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Tout autre crise pouvait lui être fatale.
+[found_matche] close matches: ['<Toute> autre crise pouvait lui être fatale.']
+[find_err] err: ['Toute']
+[find_err] phrase: ['Tout', 'autre', 'crise', 'pouvait', 'lui', 'être', 'fatale']
+[find_err] matche: ['Toute', 'autre', 'crise', 'pouvait', 'lui', 'être', 'fatale']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Toute']
+[find_err] list_String_Corr: ['Toute']
+[find_err] list_String_Err: ['Tout']
+[found_matche] CLOSE MATCH FOUND: <Toute> autre crise pouvait lui être fatale.
+[found_matche] ERROR: Tout
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il s'est déguisé en vieux savant fou à la chevelure tout hérissée.
+[found_matche] close matches: ["Il s'est déguisé en vieux savant fou à la chevelure <toute> hérissée."]
+[find_err] err: ['toute']
+[find_err] phrase: ['Il', "s'", 'est', 'déguisé', 'en', 'vieux', 'savant', 'fou', 'à', 'la', 'chevelure', 'tout', 'hérissée']
+[find_err] matche: ['Il', "s'", 'est', 'déguisé', 'en', 'vieux', 'savant', 'fou', 'à', 'la', 'chevelure', 'toute', 'hérissée']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['toute']
+[find_err] list_String_Corr: ['toute']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: Il s'est déguisé en vieux savant fou à la chevelure <toute> hérissée.
+[found_matche] ERROR: tout
+[BOT] EXECUTION CLICK DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Défense express de fumer à l'intérieur de l'établissement », indiquait la pancarte.
+[found_matche] close matches: ["« Défense <expresse> de fumer à l'intérieur de l'établissement », indiquait la pancarte."]
+[find_err] err: ['expresse']
+[find_err] phrase: ['«', 'Défense', 'express', 'de', 'fumer', 'à', "l'", 'intérieur', 'de', "l'", 'établissement', '»', 'indiquait', 'la', 'pancarte']
+[find_err] matche: ['«', 'Défense', 'expresse', 'de', 'fumer', 'à', "l'", 'intérieur', 'de', "l'", 'établissement', '»', 'indiquait', 'la', 'pancarte']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['expresse']
+[find_err] list_String_Corr: ['expresse']
+[find_err] list_String_Err: ['express']
+[found_matche] CLOSE MATCH FOUND: « Défense <expresse> de fumer à l'intérieur de l'établissement », indiquait la pancarte.
+[found_matche] ERROR: express
+[BOT] EXECUTION CLICK DONE
+return_tag: ['express']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette pharmacie est ouverte à toutes heures.
+[found_matche] close matches: ['Cette pharmacie est ouverte à <toute heure>.']
+[find_err] err: ['toute', 'heure']
+[find_err] phrase: ['Cette', 'pharmacie', 'est', 'ouverte', 'à', 'toutes', 'heures']
+[find_err] matche: ['Cette', 'pharmacie', 'est', 'ouverte', 'à', 'toute', 'heure']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['toute', 'heure']
+[find_err] list_String_Corr: ['toute', 'heure']
+[find_err] list_String_Err: ['toutes', 'heures']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Cette pharmacie est ouverte à <toute heure>.
+[found_matche] ERROR: toutes
+[BOT] EXECUTION CLICK DONE
+return_tag: ['toutes', 'heures']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il a eu la grippe et a dû garder le lit six jours de suite.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Théâtre ou cinéma, samedi soir ? Je crois que la seconde alternative me tente plus.
+[found_matche] close matches: ['Théâtre ou cinéma, samedi soir ? Je crois que la seconde <éventualité> me tente plus.']
+[find_err] err: ['éventualité']
+[find_err] phrase: ['Théâtre', 'ou', 'cinéma', 'samedi', 'soir', '?', 'Je', 'crois', 'que', 'la', 'seconde', 'alternative', 'me', 'tente', 'plus']
+[find_err] matche: ['Théâtre', 'ou', 'cinéma', 'samedi', 'soir', '?', 'Je', 'crois', 'que', 'la', 'seconde', 'éventualité', 'me', 'tente', 'plus']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['éventualité']
+[find_err] list_String_Corr: ['éventualité']
+[find_err] list_String_Err: ['alternative']
+[found_matche] CLOSE MATCH FOUND: Théâtre ou cinéma, samedi soir ? Je crois que la seconde <éventualité> me tente plus.
+[found_matche] ERROR: alternative
+[BOT] EXECUTION CLICK DONE
+return_tag: ['alternative']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Tout cela avait entraîné des dépenses conséquentes.
+[found_matche] close matches: ['Tout cela avait entraîné de <grandes> dépenses.']
+[find_err] err: ['grandes']
+[find_err] phrase: ['Tout', 'cela', 'avait', 'entraîné', 'des', 'dépenses', 'conséquentes']
+[find_err] matche: ['Tout', 'cela', 'avait', 'entraîné', 'de', 'grandes', 'dépenses']
+[find_err] Words_err: ['grandes']
+[find_err] list_String_Corr: ['de', 'grandes']
+[find_err] list_String_Err: ['des', 'conséquentes']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[auto_learning] failed to found match, learning...
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Lorsqu'elle eût fini d'écrire sa lettre, elle se leva et mit son manteau.
+[found_matche] close matches: ["Lorsqu'elle <eut> fini d'écrire sa lettre, elle se leva et mit son manteau."]
+[find_err] err: ['eut']
+[find_err] phrase: ["Lorsqu'", 'elle', 'eût', 'fini', "d'", 'écrire', 'sa', 'lettre', 'elle', 'se', 'leva', 'et', 'mit', 'son', 'manteau']
+[find_err] matche: ["Lorsqu'", 'elle', 'eut', 'fini', "d'", 'écrire', 'sa', 'lettre', 'elle', 'se', 'leva', 'et', 'mit', 'son', 'manteau']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['eut']
+[find_err] list_String_Corr: ['eut']
+[find_err] list_String_Err: ['eût']
+[found_matche] CLOSE MATCH FOUND: Lorsqu'elle <eut> fini d'écrire sa lettre, elle se leva et mit son manteau.
+[found_matche] ERROR: eût
+[BOT] EXECUTION CLICK DONE
+return_tag: ['eût']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Malgré que nous vivions loin de chez eux, nous essayons de les voir au moins deux fois par an.
+[found_matche] close matches: ['<Bien que> nous vivions loin de chez eux, nous essayons de les voir au moins deux fois par an.']
+[find_err] err: ['Bien', 'que']
+[find_err] phrase: ['Malgré', 'que', 'nous', 'vivions', 'loin', 'de', 'chez', 'eux', 'nous', 'essayons', 'de', 'les', 'voir', 'au', 'moins', 'deux', 'fois', 'par', 'an']
+[find_err] matche: ['Bien', 'que', 'nous', 'vivions', 'loin', 'de', 'chez', 'eux', 'nous', 'essayons', 'de', 'les', 'voir', 'au', 'moins', 'deux', 'fois', 'par', 'an']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Bien', 'que']
+[find_err] list_String_Corr: ['Bien']
+[find_err] list_String_Err: ['Malgré']
+[found_matche] CLOSE MATCH FOUND: <Bien que> nous vivions loin de chez eux, nous essayons de les voir au moins deux fois par an.
+[found_matche] ERROR: Malgré
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Malgré']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il distingua, à l'autre bout de la salle, la silhouette tout élancée de la jeune chercheuse.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: A‑t‑on déjà commémoré le 50e anniversaire du premier pas de l'homme sur la Lune ?
+[found_matche] close matches: ["A-t-on déjà <fêté> le 50e anniversaire du premier pas de l'homme sur la Lune ?", " le 50e anniversaire du premier pas de l'homme sur la Lune ?"]
+[find_err] err: ['fêté']
+[find_err] phrase: ['A-', 't-', 'on', 'déjà', 'commémoré', 'le', '50e', 'anniversaire', 'du', 'premier', 'pas', 'de', "l'", 'homme', 'sur', 'la', 'Lune']
+[find_err] matche: ['A-', 't-', 'on', 'déjà', 'fêté', 'le', '50e', 'anniversaire', 'du', 'premier', 'pas', 'de', "l'", 'homme', 'sur', 'la', 'Lune']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['fêté']
+[find_err] list_String_Corr: ['fêté']
+[find_err] list_String_Err: ['commémoré']
+[found_matche] CLOSE MATCH FOUND: A-t-on déjà <fêté> le 50e anniversaire du premier pas de l'homme sur la Lune ?
+[found_matche] ERROR: commémoré
+[BOT] EXECUTION CLICK DONE
+return_tag: ['commémoré']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je suis de suite tombée amoureuse de cette maison.
+[found_matche] close matches: ['Je suis <tout de suite> tombée amoureuse de cette maison.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Je', 'suis', 'de', 'suite', 'tombée', 'amoureuse', 'de', 'cette', 'maison']
+[find_err] matche: ['Je', 'suis', 'tout', 'de', 'suite', 'tombée', 'amoureuse', 'de', 'cette', 'maison']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Je suis <tout de suite> tombée amoureuse de cette maison.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 11 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je suis de suite tombée amoureuse de cette maison.
+[found_matche] close matches: ['Je suis <tout de suite> tombée amoureuse de cette maison.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Je', 'suis', 'de', 'suite', 'tombée', 'amoureuse', 'de', 'cette', 'maison']
+[find_err] matche: ['Je', 'suis', 'tout', 'de', 'suite', 'tombée', 'amoureuse', 'de', 'cette', 'maison']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Je suis <tout de suite> tombée amoureuse de cette maison.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cet acteur a décroché un rôle conséquent dans le prochain film de cette grande réalisatrice.
+[found_matche] close matches: ['Cet acteur a décroché un rôle <important> dans le prochain film de cette grande réalisatrice.']
+[find_err] err: ['important']
+[find_err] phrase: ['Cet', 'acteur', 'a', 'décroché', 'un', 'rôle', 'conséquent', 'dans', 'le', 'prochain', 'film', 'de', 'cette', 'grande', 'réalisatrice']
+[find_err] matche: ['Cet', 'acteur', 'a', 'décroché', 'un', 'rôle', 'important', 'dans', 'le', 'prochain', 'film', 'de', 'cette', 'grande', 'réalisatrice']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['important']
+[find_err] list_String_Corr: ['important']
+[find_err] list_String_Err: ['conséquent']
+[found_matche] CLOSE MATCH FOUND: Cet acteur a décroché un rôle <important> dans le prochain film de cette grande réalisatrice.
+[found_matche] ERROR: conséquent
+[BOT] EXECUTION CLICK DONE
+return_tag: ['conséquent']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cet été, nous sommes allés tous les jours au village en vélo.
+[found_matche] close matches: ['Cet été, nous sommes allés tous les jours au village <à> vélo.']
+[find_err] err: ['à']
+[find_err] phrase: ['Cet', 'été', 'nous', 'sommes', 'allés', 'tous', 'les', 'jours', 'au', 'village', 'en', 'vélo']
+[find_err] matche: ['Cet', 'été', 'nous', 'sommes', 'allés', 'tous', 'les', 'jours', 'au', 'village', 'à', 'vélo']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['à']
+[find_err] list_String_Corr: ['à']
+[find_err] list_String_Err: ['en']
+[found_matche] CLOSE MATCH FOUND: Cet été, nous sommes allés tous les jours au village <à> vélo.
+[found_matche] ERROR: en
+[BOT] EXECUTION CLICK DONE
+return_tag: ['en']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Recouvrirait‑il un jour la raison ? Les médecins ne pouvaient l'affirmer.
+[found_matche] close matches: ["<Recouvrerait>-il un jour la raison ? Les médecins ne pouvaient l'affirmer."]
+[find_err] err: ['Recouvrerait-']
+[find_err] phrase: ['Recouvrirait-', 'il', 'un', 'jour', 'la', 'raison', '?', 'Les', 'médecins', 'ne', 'pouvaient', "l'", 'affirmer']
+[find_err] matche: ['Recouvrerait-', 'il', 'un', 'jour', 'la', 'raison', '?', 'Les', 'médecins', 'ne', 'pouvaient', "l'", 'affirmer']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Recouvrerait-']
+[find_err] list_String_Corr: ['Recouvrerait-']
+[find_err] list_String_Err: ['Recouvrirait']
+[found_matche] CLOSE MATCH FOUND: <Recouvrerait>-il un jour la raison ? Les médecins ne pouvaient l'affirmer.
+[found_matche] ERROR: Recouvrirait
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Recouvrirait']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il était un peu dur d'oreille, mais depuis quelque temps cela s'empire.
+[found_matche] close matches: ["Il était un peu dur d'oreille, mais depuis quelque temps cela <empire>."]
+[find_err] err: ['empire']
+[find_err] phrase: ['Il', 'était', 'un', 'peu', 'dur', "d'", 'oreille', 'mais', 'depuis', 'quelque', 'temps', 'cela', "s'", 'empire']
+[find_err] matche: ['Il', 'était', 'un', 'peu', 'dur', "d'", 'oreille', 'mais', 'depuis', 'quelque', 'temps', 'cela', 'empire']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['empire']
+[find_err] list_String_Corr: []
+[find_err] list_String_Err: ['s']
+[found_matche] CLOSE MATCH FOUND: Il était un peu dur d'oreille, mais depuis quelque temps cela <empire>.
+[found_matche] ERROR: s
+[BOT] EXECUTION CLICK DONE
+return_tag: ['s']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Dans cet ouvrage, les nombres sont écrits en toute lettre.
+[found_matche] close matches: ['Dans cet ouvrage, les nombres sont écrits en <toutes lettres>.']
+[find_err] err: ['toutes', 'lettres']
+[find_err] phrase: ['Dans', 'cet', 'ouvrage', 'les', 'nombres', 'sont', 'écrits', 'en', 'toute', 'lettre']
+[find_err] matche: ['Dans', 'cet', 'ouvrage', 'les', 'nombres', 'sont', 'écrits', 'en', 'toutes', 'lettres']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['toutes', 'lettres']
+[find_err] list_String_Corr: ['toutes', 'lettres']
+[find_err] list_String_Err: ['toute', 'lettre']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Dans cet ouvrage, les nombres sont écrits en <toutes lettres>.
+[found_matche] ERROR: toute
+[BOT] EXECUTION CLICK DONE
+return_tag: ['toute', 'lettre']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il avait parfois l'impression de compter pour peu de choses.
+[found_matche] close matches: ["Il avait parfois l'impression de compter pour peu de <chose>.", "J'avais vraiment l'impression de compter pour peu de <chose>."]
+[find_err] err: ['chose']
+[find_err] phrase: ['Il', 'avait', 'parfois', "l'", 'impression', 'de', 'compter', 'pour', 'peu', 'de', 'choses']
+[find_err] matche: ['Il', 'avait', 'parfois', "l'", 'impression', 'de', 'compter', 'pour', 'peu', 'de', 'chose']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['chose']
+[find_err] list_String_Corr: ['chose']
+[find_err] list_String_Err: ['choses']
+[found_matche] CLOSE MATCH FOUND: Il avait parfois l'impression de compter pour peu de <chose>.
+[found_matche] ERROR: choses
+[BOT] EXECUTION CLICK DONE
+return_tag: ['choses']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Mes enfants sont grands maintenant, ils peuvent rester un moment tous seuls à la maison.
+[found_matche] close matches: ['Mes enfants sont grands maintenant, ils peuvent rester un moment <tout> seuls à la maison.']
+[find_err] err: ['tout']
+[find_err] phrase: ['Mes', 'enfants', 'sont', 'grands', 'maintenant', 'ils', 'peuvent', 'rester', 'un', 'moment', 'tous', 'seuls', 'à', 'la', 'maison']
+[find_err] matche: ['Mes', 'enfants', 'sont', 'grands', 'maintenant', 'ils', 'peuvent', 'rester', 'un', 'moment', 'tout', 'seuls', 'à', 'la', 'maison']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tous']
+[found_matche] CLOSE MATCH FOUND: Mes enfants sont grands maintenant, ils peuvent rester un moment <tout> seuls à la maison.
+[found_matche] ERROR: tous
+[BOT] EXECUTION CLICK DONE
+return_tag: ['tous']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Un instant, lui dit la réceptionniste, et je suis toute à vous ! »
+[found_matche] close matches: ['« Un instant, lui dit la réceptionniste, et je suis <tout> à vous ! »']
+[find_err] err: ['tout']
+[find_err] phrase: ['«', 'Un', 'instant', 'lui', 'dit', 'la', 'réceptionniste', 'et', 'je', 'suis', 'toute', 'à', 'vous', '!']
+[find_err] matche: ['«', 'Un', 'instant', 'lui', 'dit', 'la', 'réceptionniste', 'et', 'je', 'suis', 'tout', 'à', 'vous', '!']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['toute']
+[found_matche] CLOSE MATCH FOUND: « Un instant, lui dit la réceptionniste, et je suis <tout> à vous ! »
+[found_matche] ERROR: toute
+[BOT] EXECUTION CLICK DONE
+return_tag: ['toute']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Elle a négocié son salaire et obtenu des avantages conséquents.
+[found_matche] close matches: ['Elle a négocié son salaire et obtenu des avantages <substantiels>.']
+[find_err] err: ['substantiels']
+[find_err] phrase: ['Elle', 'a', 'négocié', 'son', 'salaire', 'et', 'obtenu', 'des', 'avantages', 'conséquents']
+[find_err] matche: ['Elle', 'a', 'négocié', 'son', 'salaire', 'et', 'obtenu', 'des', 'avantages', 'substantiels']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['substantiels']
+[find_err] list_String_Corr: ['substantiels']
+[find_err] list_String_Err: ['conséquents']
+[found_matche] CLOSE MATCH FOUND: Elle a négocié son salaire et obtenu des avantages <substantiels>.
+[found_matche] ERROR: conséquents
+[BOT] EXECUTION CLICK DONE
+return_tag: ['conséquents']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Son réveil sonna, mais il ne se leva pas de suite.
+[found_matche] close matches: ['Son réveil sonna, mais il ne se leva pas <tout de suite>.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Son', 'réveil', 'sonna', 'mais', 'il', 'ne', 'se', 'leva', 'pas', 'de', 'suite']
+[find_err] matche: ['Son', 'réveil', 'sonna', 'mais', 'il', 'ne', 'se', 'leva', 'pas', 'tout', 'de', 'suite']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Son réveil sonna, mais il ne se leva pas <tout de suite>.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 9 questions
+[Module] Fichier [./Modules/Excellence/Module10.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les policiers espéraient que l'homme recouvrirait la mémoire, une fois qu'il aurait dessoûlé.
+[found_matche] close matches: ["Les policiers espéraient que l'homme <recouvrerait> la mémoire, une fois qu'il aurait dessoûlé."]
+[find_err] err: ['recouvrerait']
+[find_err] phrase: ['Les', 'policiers', 'espéraient', 'que', "l'", 'homme', 'recouvrirait', 'la', 'mémoire', 'une', 'fois', "qu'", 'il', 'aurait', 'dessoûlé']
+[find_err] matche: ['Les', 'policiers', 'espéraient', 'que', "l'", 'homme', 'recouvrerait', 'la', 'mémoire', 'une', 'fois', "qu'", 'il', 'aurait', 'dessoûlé']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['recouvrerait']
+[find_err] list_String_Corr: ['recouvrerait']
+[find_err] list_String_Err: ['recouvrirait']
+[found_matche] CLOSE MATCH FOUND: Les policiers espéraient que l'homme <recouvrerait> la mémoire, une fois qu'il aurait dessoûlé.
+[found_matche] ERROR: recouvrirait
+[BOT] EXECUTION CLICK DONE
+return_tag: ['recouvrirait']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ensuite, ils parlèrent de tout autre chose.
+[found_matche] close matches: ['Après la réunion, nous avons parlé de <tout> autre chose.']
+[find_err] err: ['tout']
+[find_err] phrase: ['Ensuite', 'ils', 'parlèrent', 'de', 'tout', 'autre', 'chose']
+[find_err] matche: ['Après', 'la', 'réunion', 'nous', 'avons', 'parlé', 'de', 'tout', 'autre', 'chose']
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['Après', 'la', 'réunion', 'nous', 'avons', 'parlé']
+[find_err] list_String_Err: ['Ensuite', 'ils', 'parlèrent']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « La loi est expresse sur ce point », a rappelé alors la juge.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il m'interrompait à propos, c'était vraiment pénible !
+[found_matche] close matches: ["Il m'interrompait à <tout> propos, c'était vraiment pénible !"]
+[find_err] err: ['tout']
+[find_err] phrase: ['Il', "m'", 'interrompait', 'à', 'propos', "c'", 'était', 'vraiment', 'pénible']
+[find_err] matche: ['Il', "m'", 'interrompait', 'à', 'tout', 'propos', "c'", 'était', 'vraiment', 'pénible']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: Il m'interrompait à <tout> propos, c'était vraiment pénible !
+[found_matche] ERROR: tout
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Mon frère a décidé de traverser le pays en vélo, cet été.
+[found_matche] close matches: ['Mon frère a décidé de traverser le pays <à> vélo, cet été.']
+[find_err] err: ['à']
+[find_err] phrase: ['Mon', 'frère', 'a', 'décidé', 'de', 'traverser', 'le', 'pays', 'en', 'vélo', 'cet', 'été']
+[find_err] matche: ['Mon', 'frère', 'a', 'décidé', 'de', 'traverser', 'le', 'pays', 'à', 'vélo', 'cet', 'été']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['à']
+[find_err] list_String_Corr: ['à']
+[find_err] list_String_Err: ['en']
+[found_matche] CLOSE MATCH FOUND: Mon frère a décidé de traverser le pays <à> vélo, cet été.
+[found_matche] ERROR: en
+[BOT] EXECUTION CLICK DONE
+return_tag: ['en']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette année‑là, on a commémoré le 50e anniversaire de cette comédie musicale.
+[found_matche] close matches: ['Cette année-là, on a <célébré> le 50e anniversaire de cette comédie musicale.', ' le 50e anniversaire de cette comédie musicale.', "En 1992, on a <célébré> le 500e anniversaire de la découverte de l'Amérique."]
+[find_err] err: ['célébré']
+[find_err] phrase: ['Cette', 'année-', 'là', 'on', 'a', 'commémoré', 'le', '50e', 'anniversaire', 'de', 'cette', 'comédie', 'musicale']
+[find_err] matche: ['Cette', 'année-', 'là', 'on', 'a', 'célébré', 'le', '50e', 'anniversaire', 'de', 'cette', 'comédie', 'musicale']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['célébré']
+[find_err] list_String_Corr: ['célébré']
+[find_err] list_String_Err: ['commémoré']
+[found_matche] CLOSE MATCH FOUND: Cette année-là, on a <célébré> le 50e anniversaire de cette comédie musicale.
+[found_matche] ERROR: commémoré
+[BOT] EXECUTION CLICK DONE
+return_tag: ['commémoré']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Chaque jour, la misère semblait empirer.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La semaine dernière, nous sommes allés deux soirs de suite au cinéma.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Malgré qu'il n'en ait pas le droit, le chat se fait les griffes sur le canapé.
+[found_matche] close matches: ["<Bien qu'>il n'en ait pas le droit, le chat se fait les griffes sur le canapé."]
+[find_err] err: ['Bien', "qu'"]
+[find_err] phrase: ['Malgré', "qu'", 'il', "n'", 'en', 'ait', 'pas', 'le', 'droit', 'le', 'chat', 'se', 'fait', 'les', 'griffes', 'sur', 'le', 'canapé']
+[find_err] matche: ['Bien', "qu'", 'il', "n'", 'en', 'ait', 'pas', 'le', 'droit', 'le', 'chat', 'se', 'fait', 'les', 'griffes', 'sur', 'le', 'canapé']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Bien', "qu'"]
+[find_err] list_String_Corr: ['Bien']
+[find_err] list_String_Err: ['Malgré']
+[found_matche] CLOSE MATCH FOUND: <Bien qu'>il n'en ait pas le droit, le chat se fait les griffes sur le canapé.
+[found_matche] ERROR: Malgré
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Malgré']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'ascenseur était en panne ; lorsqu'elle arriva au sixième étage, elle était tout haletante.
+[found_matche] close matches: ["L'ascenseur était en panne ; lorsqu'elle arriva au sixième étage, elle était <toute> haletante."]
+[find_err] err: ['toute']
+[find_err] phrase: ["L'", 'ascenseur', 'était', 'en', 'panne', ';', "lorsqu'", 'elle', 'arriva', 'au', 'sixième', 'étage', 'elle', 'était', 'tout', 'haletante']
+[find_err] matche: ["L'", 'ascenseur', 'était', 'en', 'panne', ';', "lorsqu'", 'elle', 'arriva', 'au', 'sixième', 'étage', 'elle', 'était', 'toute', 'haletante']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['toute']
+[find_err] list_String_Corr: ['toute']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: L'ascenseur était en panne ; lorsqu'elle arriva au sixième étage, elle était <toute> haletante.
+[found_matche] ERROR: tout
+[BOT] EXECUTION CLICK DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ma sœur et moi allions au collège à vélo.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les enfants, penauds, nous ont dit qu'ils avaient fait une bêtise.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 11 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: On eût dit qu'ils ne se rendaient pas compte de la gravité de la situation.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Dès qu'elle sera arrivée dans notre bureau, cette lettre sera remise à son destinataire.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 1 questions
+[Module] Fichier [./Modules/Excellence/Module10.txt] chargé
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ils ont tout de suite voulu aller à la plage.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il n'y a que ces deux alternatives : échange ou avoir ; nous ne remboursons pas les articles.
+[found_matche] close matches: ["Il n'y a que cette <alternative> : échange ou avoir ; nous ne remboursons pas les articles."]
+[find_err] err: ['alternative']
+[find_err] phrase: ['Il', "n'", 'y', 'a', 'que', 'ces', 'deux', 'alternatives', ':', 'échange', 'ou', 'avoir', ';', 'nous', 'ne', 'remboursons', 'pas', 'les', 'articles']
+[find_err] matche: ['Il', "n'", 'y', 'a', 'que', 'cette', 'alternative', ':', 'échange', 'ou', 'avoir', ';', 'nous', 'ne', 'remboursons', 'pas', 'les', 'articles']
+[find_err] Words_err: ['alternative']
+[find_err] list_String_Corr: ['cette', 'alternative']
+[find_err] list_String_Err: ['ces', 'deux', 'alternatives']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[auto_learning] failed to found match, learning...
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La jeune femme, très amoureuse, lui avait dit : « Rien ne m'empêchera d'être tout à vous. »
+[found_matche] close matches: ["La jeune femme, très amoureuse, lui avait dit : « Rien ne m'empêchera d'être <toute> à vous. »"]
+[find_err] err: ['toute']
+[find_err] phrase: ['La', 'jeune', 'femme', 'très', 'amoureuse', 'lui', 'avait', 'dit', ':', '«', 'Rien', 'ne', "m'", 'empêchera', "d'", 'être', 'tout', 'à', 'vous']
+[find_err] matche: ['La', 'jeune', 'femme', 'très', 'amoureuse', 'lui', 'avait', 'dit', ':', '«', 'Rien', 'ne', "m'", 'empêchera', "d'", 'être', 'toute', 'à', 'vous']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['toute']
+[find_err] list_String_Corr: ['toute']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: La jeune femme, très amoureuse, lui avait dit : « Rien ne m'empêchera d'être <toute> à vous. »
+[found_matche] ERROR: tout
+[BOT] EXECUTION CLICK DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il aurait pourtant suffi de peu de chose pour que nous remportions la victoire.
+[found_matche] close matches: ['Il lui suffisait de peu de <chose> pour sombrer dans la mélancolie.']
+[find_err] err: ['chose']
+[find_err] phrase: ['Il', 'aurait', 'pourtant', 'suffi', 'de', 'peu', 'de', 'chose', 'pour', 'que', 'nous', 'remportions', 'la', 'victoire']
+[find_err] matche: ['Il', 'lui', 'suffisait', 'de', 'peu', 'de', 'chose', 'pour', 'sombrer', 'dans', 'la', 'mélancolie']
+[find_err] Words_err: ['chose']
+[find_err] list_String_Corr: ['lui', 'suffisait', 'sombrer', 'dans', 'mélancolie']
+[find_err] list_String_Err: ['aurait', 'pourtant', 'suffi', 'que', 'nous', 'remportions', 'victoire']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: En quelques années, la recherche a fait des progrès conséquents.
+[found_matche] close matches: ['En quelques années, la recherche a fait des progrès <considérables>.']
+[find_err] err: ['considérables']
+[find_err] phrase: ['En', 'quelques', 'années', 'la', 'recherche', 'a', 'fait', 'des', 'progrès', 'conséquents']
+[find_err] matche: ['En', 'quelques', 'années', 'la', 'recherche', 'a', 'fait', 'des', 'progrès', 'considérables']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['considérables']
+[find_err] list_String_Corr: ['considérables']
+[find_err] list_String_Err: ['conséquents']
+[found_matche] CLOSE MATCH FOUND: En quelques années, la recherche a fait des progrès <considérables>.
+[found_matche] ERROR: conséquents
+[BOT] EXECUTION CLICK DONE
+return_tag: ['conséquents']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Si elle subissait cette opération, la jeune fille recouvrirait‑elle vraiment la vue ?
+[found_matche] close matches: ['Si elle subissait cette opération, la jeune fille <recouvrerait>-elle vraiment la vue ?']
+[find_err] err: ['recouvrerait-']
+[find_err] phrase: ['Si', 'elle', 'subissait', 'cette', 'opération', 'la', 'jeune', 'fille', 'recouvrirait-', 'elle', 'vraiment', 'la', 'vue']
+[find_err] matche: ['Si', 'elle', 'subissait', 'cette', 'opération', 'la', 'jeune', 'fille', 'recouvrerait-', 'elle', 'vraiment', 'la', 'vue']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['recouvrerait-']
+[find_err] list_String_Corr: ['recouvrerait-']
+[find_err] list_String_Err: ['recouvrirait']
+[found_matche] CLOSE MATCH FOUND: Si elle subissait cette opération, la jeune fille <recouvrerait>-elle vraiment la vue ?
+[found_matche] ERROR: recouvrirait
+[BOT] EXECUTION CLICK DONE
+return_tag: ['recouvrirait']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je m'en occupe de suite, promis !
+[found_matche] close matches: ["Je m'en occupe <tout de suite>, promis !"]
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Je', "m'", 'en', 'occupe', 'de', 'suite', 'promis']
+[find_err] matche: ['Je', "m'", 'en', 'occupe', 'tout', 'de', 'suite', 'promis']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Je m'en occupe <tout de suite>, promis !
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 6 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je m'en occupe de suite, promis !
+[found_matche] close matches: ["Je m'en occupe <tout de suite>, promis !"]
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Je', "m'", 'en', 'occupe', 'de', 'suite', 'promis']
+[find_err] matche: ['Je', "m'", 'en', 'occupe', 'tout', 'de', 'suite', 'promis']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Je m'en occupe <tout de suite>, promis !
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: J'ai dormi jusqu'à 11 heures, malgré le bruit des travaux dans l'immeuble.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Œufs durs, tomates, pain de mie : voilà les ingrédients d'un repas exprès !
+[found_matche] close matches: ["Œufs durs, tomates, pain de mie : voilà les ingrédients d'un repas <express> !"]
+[find_err] err: ['express']
+[find_err] phrase: ['Œufs', 'durs', 'tomates', 'pain', 'de', 'mie', ':', 'voilà', 'les', 'ingrédients', "d'", 'un', 'repas', 'exprès']
+[find_err] matche: ['Œufs', 'durs', 'tomates', 'pain', 'de', 'mie', ':', 'voilà', 'les', 'ingrédients', "d'", 'un', 'repas', 'express']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['express']
+[find_err] list_String_Corr: ['express']
+[find_err] list_String_Err: ['exprès']
+[found_matche] CLOSE MATCH FOUND: Œufs durs, tomates, pain de mie : voilà les ingrédients d'un repas <express> !
+[found_matche] ERROR: exprès
+[BOT] EXECUTION CLICK DONE
+return_tag: ['exprès']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Une fois qu'elle terminé son travail, elle alla prendre un verre avec ses amis.
+[found_matche] close matches: ["Une fois qu'elle <eut> terminé son travail, elle alla prendre un verre avec ses amis."]
+[find_err] err: ['eut']
+[find_err] phrase: ['Une', 'fois', "qu'", 'elle', 'terminé', 'son', 'travail', 'elle', 'alla', 'prendre', 'un', 'verre', 'avec', 'ses', 'amis']
+[find_err] matche: ['Une', 'fois', "qu'", 'elle', 'eut', 'terminé', 'son', 'travail', 'elle', 'alla', 'prendre', 'un', 'verre', 'avec', 'ses', 'amis']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['eut']
+[find_err] list_String_Corr: ['eut']
+[find_err] list_String_Err: ['eut']
+[found_matche] CLOSE MATCH FOUND: Une fois qu'elle <eut> terminé son travail, elle alla prendre un verre avec ses amis.
+[found_matche] ERROR: eut
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['eut']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'état de ce patient s'est empiré : depuis ce matin, il est dans le coma.
+[found_matche] close matches: ["L'état de ce patient <a empiré> : depuis ce matin, il est dans le coma."]
+[find_err] err: ['a', 'empiré']
+[find_err] phrase: ["L'", 'état', 'de', 'ce', 'patient', "s'", 'est', 'empiré', ':', 'depuis', 'ce', 'matin', 'il', 'est', 'dans', 'le', 'coma']
+[find_err] matche: ["L'", 'état', 'de', 'ce', 'patient', 'a', 'empiré', ':', 'depuis', 'ce', 'matin', 'il', 'est', 'dans', 'le', 'coma']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['a', 'empiré']
+[find_err] list_String_Corr: ['a']
+[find_err] list_String_Err: ['est', 'est']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: L'état de ce patient <a empiré> : depuis ce matin, il est dans le coma.
+[found_matche] ERROR: est
+[BOT] EXECUTION CLICK DONE
+return_tag: ['est', 'est']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'homme, dont les vêtements étaient usés, avait la barbe hirsute.
+[found_matche] close matches: ["L'homme, dont les vêtements étaient usés, avait la barbe <tout> hirsute."]
+[find_err] err: ['tout']
+[find_err] phrase: ["L'", 'homme', 'dont', 'les', 'vêtements', 'étaient', 'usés', 'avait', 'la', 'barbe', 'hirsute']
+[find_err] matche: ["L'", 'homme', 'dont', 'les', 'vêtements', 'étaient', 'usés', 'avait', 'la', 'barbe', 'tout', 'hirsute']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: L'homme, dont les vêtements étaient usés, avait la barbe <tout> hirsute.
+[found_matche] ERROR: tout
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Mais pourquoi montes‑tu de suite sur tes grands chevaux ?
+[found_matche] close matches: ['Mais pourquoi montes-tu <tout de suite> sur tes grands chevaux ?']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Mais', 'pourquoi', 'montes-', 'tu', 'de', 'suite', 'sur', 'tes', 'grands', 'chevaux']
+[find_err] matche: ['Mais', 'pourquoi', 'montes-', 'tu', 'tout', 'de', 'suite', 'sur', 'tes', 'grands', 'chevaux']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Mais pourquoi montes-tu <tout de suite> sur tes grands chevaux ?
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 5 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: À mon sens, il s'agit là de autre chose.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Pour ces soldats, les alternatives étaient les suivantes : vaincre ou mourir.
+[found_matche] close matches: ["Pour ces soldats, <l'alternative> était la suivante : vaincre ou mourir."]
+[find_err] err: ["l'", 'alternative']
+[find_err] phrase: ['Pour', 'ces', 'soldats', 'les', 'alternatives', 'étaient', 'les', 'suivantes', ':', 'vaincre', 'ou', 'mourir']
+[find_err] matche: ['Pour', 'ces', 'soldats', "l'", 'alternative', 'était', 'la', 'suivante', ':', 'vaincre', 'ou', 'mourir']
+[find_err] Words_err: ["l'", 'alternative']
+[find_err] list_String_Corr: ["l'", 'alternative', 'était', 'la', 'suivante']
+[find_err] list_String_Err: ['les', 'alternatives', 'étaient', 'les', 'suivantes']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[auto_learning] failed to found match, learning...
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il lui suffisait de peu de pour sombrer dans la mélancolie.
+[found_matche] close matches: ['Il lui suffisait de peu de <chose> pour sombrer dans la mélancolie.']
+[find_err] err: ['chose']
+[find_err] phrase: ['Il', 'lui', 'suffisait', 'de', 'peu', 'de', 'pour', 'sombrer', 'dans', 'la', 'mélancolie']
+[find_err] matche: ['Il', 'lui', 'suffisait', 'de', 'peu', 'de', 'chose', 'pour', 'sombrer', 'dans', 'la', 'mélancolie']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['chose']
+[find_err] list_String_Corr: ['chose']
+[find_err] list_String_Err: ['chose']
+[found_matche] CLOSE MATCH FOUND: Il lui suffisait de peu de <chose> pour sombrer dans la mélancolie.
+[found_matche] ERROR: chose
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['chose']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je souhaiterais envoyer ce colis par exprès : combien coûte l'affranchissement ?
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: En juin, on a commémoré le souvenir du débarquement allié en Normandie.
+[found_matche] close matches: ['En juin, on a <célébré le souvenir> du débarquement allié en Normandie.', 'En juin, on a <commémoré> le débarquement allié en Normandie.']
+[find_err] err: ['célébré', 'le', 'souvenir']
+[find_err] phrase: ['En', 'juin', 'on', 'a', 'commémoré', 'le', 'souvenir', 'du', 'débarquement', 'allié', 'en', 'Normandie']
+[find_err] matche: ['En', 'juin', 'on', 'a', 'célébré', 'le', 'souvenir', 'du', 'débarquement', 'allié', 'en', 'Normandie']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['célébré', 'le', 'souvenir']
+[find_err] list_String_Corr: ['célébré']
+[find_err] list_String_Err: ['commémoré']
+[found_matche] CLOSE MATCH FOUND: En juin, on a <célébré le souvenir> du débarquement allié en Normandie.
+[found_matche] ERROR: commémoré
+[BOT] EXECUTION CLICK DONE
+return_tag: ['commémoré']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Bien sûr, je vous apporte de suite la carte », dit le serveur.
+[found_matche] close matches: ['« Bien sûr, je vous apporte <tout de suite> la carte », dit le serveur.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['«', 'Bien', 'sûr', 'je', 'vous', 'apporte', 'de', 'suite', 'la', 'carte', '»', 'dit', 'le', 'serveur']
+[find_err] matche: ['«', 'Bien', 'sûr', 'je', 'vous', 'apporte', 'tout', 'de', 'suite', 'la', 'carte', '»', 'dit', 'le', 'serveur']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: « Bien sûr, je vous apporte <tout de suite> la carte », dit le serveur.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 4 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les associations d'aide aux victimes ont réussi à récolter une somme conséquente.
+[found_matche] close matches: ["Les associations d'aide aux victimes ont réussi à récolter une somme <importante>."]
+[find_err] err: ['importante']
+[find_err] phrase: ['Les', 'associations', "d'", 'aide', 'aux', 'victimes', 'ont', 'réussi', 'à', 'récolter', 'une', 'somme', 'conséquente']
+[find_err] matche: ['Les', 'associations', "d'", 'aide', 'aux', 'victimes', 'ont', 'réussi', 'à', 'récolter', 'une', 'somme', 'importante']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['importante']
+[find_err] list_String_Corr: ['importante']
+[find_err] list_String_Err: ['conséquente']
+[found_matche] CLOSE MATCH FOUND: Les associations d'aide aux victimes ont réussi à récolter une somme <importante>.
+[found_matche] ERROR: conséquente
+[BOT] EXECUTION CLICK DONE
+return_tag: ['conséquente']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'opération est inévitable : il n'y a pas d'autre alternative.
+[found_matche] close matches: ["L'opération est inévitable : il n'y a pas d'autre <possibilité>."]
+[find_err] err: ['possibilité']
+[find_err] phrase: ["L'", 'opération', 'est', 'inévitable', ':', 'il', "n'", 'y', 'a', 'pas', "d'", 'autre', 'alternative']
+[find_err] matche: ["L'", 'opération', 'est', 'inévitable', ':', 'il', "n'", 'y', 'a', 'pas', "d'", 'autre', 'possibilité']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['possibilité']
+[find_err] list_String_Corr: ['possibilité']
+[find_err] list_String_Err: ['alternative']
+[found_matche] CLOSE MATCH FOUND: L'opération est inévitable : il n'y a pas d'autre <possibilité>.
+[found_matche] ERROR: alternative
+[BOT] EXECUTION CLICK DONE
+return_tag: ['alternative']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le Crime de l'Orient‑Express est l'un des romans policiers que je préfère.
+[found_matche] close matches: ["Le Crime de l'Orient-Express est l'un des romans policiers que je préfère."]
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il a plu trois jours de suite la semaine dernière.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « J'arrive, je suis tout à vous dans une minute ! » dit la serveuse aux clients qui venaient de s'asseoir.
+[found_matche] close matches: ["« Je range cette paire de chaussures et je suis <tout> à vous », dit la vendeuse au client qui venait d'entrer."]
+[find_err] err: ['tout']
+[find_err] phrase: ['«', "J'", 'arrive', 'je', 'suis', 'tout', 'à', 'vous', 'dans', 'une', 'minute', '!', '»', 'dit', 'la', 'serveuse', 'aux', 'clients', 'qui', 'venaient', 'de', "s'", 'asseoir']
+[find_err] matche: ['«', 'Je', 'range', 'cette', 'paire', 'de', 'chaussures', 'et', 'je', 'suis', 'tout', 'à', 'vous', '»', 'dit', 'la', 'vendeuse', 'au', 'client', 'qui', 'venait', "d'", 'entrer']
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['Je', 'range', 'cette', 'paire', 'chaussures', 'et', 'vendeuse', 'au', 'client', 'venait', "d'", 'entrer']
+[find_err] list_String_Err: ["J'", 'arrive', 'dans', 'une', 'minute', '!', 'serveuse', 'aux', 'clients', 'venaient', "s'", 'asseoir']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il n'y avait pas d'autre alternative : il fallait réparer le toit au plus vite.
+[found_matche] close matches: ["Il n'y avait pas d'autre <option> : il fallait réparer le toit au plus vite."]
+[find_err] err: ['option']
+[find_err] phrase: ['Il', "n'", 'y', 'avait', 'pas', "d'", 'autre', 'alternative', ':', 'il', 'fallait', 'réparer', 'le', 'toit', 'au', 'plus', 'vite']
+[find_err] matche: ['Il', "n'", 'y', 'avait', 'pas', "d'", 'autre', 'option', ':', 'il', 'fallait', 'réparer', 'le', 'toit', 'au', 'plus', 'vite']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['option']
+[find_err] list_String_Corr: ['option']
+[find_err] list_String_Err: ['alternative']
+[found_matche] CLOSE MATCH FOUND: Il n'y avait pas d'autre <option> : il fallait réparer le toit au plus vite.
+[found_matche] ERROR: alternative
+[BOT] EXECUTION CLICK DONE
+return_tag: ['alternative']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Défense de se baigner à cet endroit.
+[found_matche] close matches: ['Défense <expresse> de se baigner à cet endroit.']
+[find_err] err: ['expresse']
+[find_err] phrase: ['Défense', 'de', 'se', 'baigner', 'à', 'cet', 'endroit']
+[find_err] matche: ['Défense', 'expresse', 'de', 'se', 'baigner', 'à', 'cet', 'endroit']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['expresse']
+[find_err] list_String_Corr: ['expresse']
+[find_err] list_String_Err: ['expresse']
+[found_matche] CLOSE MATCH FOUND: Défense <expresse> de se baigner à cet endroit.
+[found_matche] ERROR: expresse
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['expresse']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ne déplacez pas le blessé, les secours arrivent de suite.
+[found_matche] close matches: ['Ne déplacez pas le blessé, les secours arrivent <tout de suite>.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Ne', 'déplacez', 'pas', 'le', 'blessé', 'les', 'secours', 'arrivent', 'de', 'suite']
+[find_err] matche: ['Ne', 'déplacez', 'pas', 'le', 'blessé', 'les', 'secours', 'arrivent', 'tout', 'de', 'suite']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Ne déplacez pas le blessé, les secours arrivent <tout de suite>.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 7 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ne déplacez pas le blessé, les secours arrivent de suite.
+[found_matche] close matches: ['Ne déplacez pas le blessé, les secours arrivent <tout de suite>.']
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Ne', 'déplacez', 'pas', 'le', 'blessé', 'les', 'secours', 'arrivent', 'de', 'suite']
+[find_err] matche: ['Ne', 'déplacez', 'pas', 'le', 'blessé', 'les', 'secours', 'arrivent', 'tout', 'de', 'suite']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Ne déplacez pas le blessé, les secours arrivent <tout de suite>.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Prends‑moi dans tes bras, je veux être toute à toi », lui murmura‑t‑elle.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Fromage ou dessert ? Je crois que je vais opter pour le second terme de l'alternative.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je n'ai pas compris de suite ce que cela signifiait.
+[found_matche] close matches: ["Je n'ai pas compris <tout de suite> ce que cela signifiait."]
+[find_err] err: ['tout', 'de', 'suite']
+[find_err] phrase: ['Je', "n'", 'ai', 'pas', 'compris', 'de', 'suite', 'ce', 'que', 'cela', 'signifiait']
+[find_err] matche: ['Je', "n'", 'ai', 'pas', 'compris', 'tout', 'de', 'suite', 'ce', 'que', 'cela', 'signifiait']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout', 'de', 'suite']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout', 'de', 'suite']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Je n'ai pas compris <tout de suite> ce que cela signifiait.
+[found_matche] ERROR: tout
+[BOT] FAILED TO EXECUTE CAN'T TOUCH: tout
+return_tag: can't_touche &tout
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 2 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'alternative était : irions‑nous sur cette île en bateau ou en avion ?
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Je prends votre dossier et je suis à vous », m'a dit mon avocate.
+[found_matche] close matches: ["« Je prends votre dossier et je suis <tout> à vous », m'a dit mon avocate.", "« Je prends mon agenda et je suis <tout> à vous », m'a dit la kinésithérapeute."]
+[find_err] err: ['tout']
+[find_err] phrase: ['«', 'Je', 'prends', 'votre', 'dossier', 'et', 'je', 'suis', 'à', 'vous', '»', "m'", 'a', 'dit', 'mon', 'avocate']
+[find_err] matche: ['«', 'Je', 'prends', 'votre', 'dossier', 'et', 'je', 'suis', 'tout', 'à', 'vous', '»', "m'", 'a', 'dit', 'mon', 'avocate']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tout']
+[find_err] list_String_Corr: ['tout']
+[find_err] list_String_Err: ['tout']
+[found_matche] CLOSE MATCH FOUND: « Je prends votre dossier et je suis <tout> à vous », m'a dit mon avocate.
+[found_matche] ERROR: tout
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['tout']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'autre alternative serait que nous cassions cette cloison pour agrandir la chambre.
+[found_matche] close matches: ["L'autre <possibilité> serait que nous cassions cette cloison pour agrandir la chambre."]
+[find_err] err: ['possibilité']
+[find_err] phrase: ["L'", 'autre', 'alternative', 'serait', 'que', 'nous', 'cassions', 'cette', 'cloison', 'pour', 'agrandir', 'la', 'chambre']
+[find_err] matche: ["L'", 'autre', 'possibilité', 'serait', 'que', 'nous', 'cassions', 'cette', 'cloison', 'pour', 'agrandir', 'la', 'chambre']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['possibilité']
+[find_err] list_String_Corr: ['possibilité']
+[find_err] list_String_Err: ['alternative']
+[found_matche] CLOSE MATCH FOUND: L'autre <possibilité> serait que nous cassions cette cloison pour agrandir la chambre.
+[found_matche] ERROR: alternative
+[BOT] EXECUTION CLICK DONE
+return_tag: ['alternative']
+
+[BOT] ####### WORKING #######
+[Module] Fichier [./Modules/Excellence/Module11.txt] chargé
+
+[BOT] PHRASE: Il n'est pas intéressé par cette offre.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Nous avons cours dans la salle dont ils sortent.
+[found_matche] close matches: ["Nous avons cours dans la salle <d'où> ils sortent."]
+[find_err] err: ["d'", 'où']
+[find_err] phrase: ['Nous', 'avons', 'cours', 'dans', 'la', 'salle', 'dont', 'ils', 'sortent']
+[find_err] matche: ['Nous', 'avons', 'cours', 'dans', 'la', 'salle', "d'", 'où', 'ils', 'sortent']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ["d'", 'où']
+[find_err] list_String_Corr: ["d'", 'où']
+[find_err] list_String_Err: ['dont']
+[found_matche] CLOSE MATCH FOUND: Nous avons cours dans la salle <d'où> ils sortent.
+[found_matche] ERROR: dont
+[BOT] EXECUTION CLICK DONE
+return_tag: ['dont']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: J'ai toujours crû en elle, je savais qu'elle allait réussir.
+[found_matche] close matches: ["J'ai toujours <cru> en elle, je savais qu'elle allait réussir."]
+[find_err] err: ['cru']
+[find_err] phrase: ["J'", 'ai', 'toujours', 'crû', 'en', 'elle', 'je', 'savais', "qu'", 'elle', 'allait', 'réussir']
+[find_err] matche: ["J'", 'ai', 'toujours', 'cru', 'en', 'elle', 'je', 'savais', "qu'", 'elle', 'allait', 'réussir']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['cru']
+[find_err] list_String_Corr: ['cru']
+[find_err] list_String_Err: ['crû']
+[found_matche] CLOSE MATCH FOUND: J'ai toujours <cru> en elle, je savais qu'elle allait réussir.
+[found_matche] ERROR: crû
+[BOT] EXECUTION CLICK DONE
+return_tag: ['crû']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le salon, ainsi que la cuisine, viennent d'être repeints.
+[found_matche] close matches: ["Le salon, ainsi que la cuisine, <vient d'être repeint>."]
+[find_err] err: ['vient', "d'", 'être', 'repeint']
+[find_err] phrase: ['Le', 'salon', 'ainsi', 'que', 'la', 'cuisine', 'viennent', "d'", 'être', 'repeints']
+[find_err] matche: ['Le', 'salon', 'ainsi', 'que', 'la', 'cuisine', 'vient', "d'", 'être', 'repeint']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['vient', "d'", 'être', 'repeint']
+[find_err] list_String_Corr: ['vient', 'repeint']
+[find_err] list_String_Err: ['viennent', 'repeints']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Le salon, ainsi que la cuisine, <vient d'être repeint>.
+[found_matche] ERROR: viennent
+[BOT] EXECUTION CLICK DONE
+return_tag: ['viennent', 'repeints']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette chance, laissons‑la lui. Son travail a été remarquable.
+[found_matche] close matches: ['Cette chance, <laissons-la-lui>. Son travail a été remarquable.']
+[find_err] err: ['laissons-', 'la-', 'lui']
+[find_err] phrase: ['Cette', 'chance', 'laissons-', 'la', 'lui', 'Son', 'travail', 'a', 'été', 'remarquable']
+[find_err] matche: ['Cette', 'chance', 'laissons-', 'la-', 'lui', 'Son', 'travail', 'a', 'été', 'remarquable']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['laissons-', 'la-', 'lui']
+[find_err] list_String_Corr: ['la-']
+[find_err] list_String_Err: ['la']
+[found_matche] CLOSE MATCH FOUND: Cette chance, <laissons-la-lui>. Son travail a été remarquable.
+[found_matche] ERROR: la
+[BOT] EXECUTION CLICK DONE
+return_tag: ['la']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Un tumulte, un vacarme ont soudain brisé le silence.
+[found_matche] close matches: ['Un tumulte, un vacarme <a> soudain brisé le silence.']
+[find_err] err: ['a']
+[find_err] phrase: ['Un', 'tumulte', 'un', 'vacarme', 'ont', 'soudain', 'brisé', 'le', 'silence']
+[find_err] matche: ['Un', 'tumulte', 'un', 'vacarme', 'a', 'soudain', 'brisé', 'le', 'silence']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['a']
+[find_err] list_String_Corr: ['a']
+[find_err] list_String_Err: ['ont']
+[found_matche] CLOSE MATCH FOUND: Un tumulte, un vacarme <a> soudain brisé le silence.
+[found_matche] ERROR: ont
+[BOT] EXECUTION CLICK DONE
+return_tag: ['ont']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il déblatère encore les membres de cette association.
+[found_matche] close matches: ['Il <déblatère> encore <contre> les membres de cette association.']
+[find_err] err: ['déblatère', 'contre']
+[find_err] phrase: ['Il', 'déblatère', 'encore', 'les', 'membres', 'de', 'cette', 'association']
+[find_err] matche: ['Il', 'déblatère', 'encore', 'contre', 'les', 'membres', 'de', 'cette', 'association']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['déblatère', 'contre']
+[find_err] list_String_Corr: ['contre']
+[find_err] list_String_Err: ['déblatère', 'contre']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Il <déblatère> encore <contre> les membres de cette association.
+[found_matche] ERROR: déblatère
+[BOT] EXECUTION CLICK DONE
+return_tag: ['déblatère', 'contre']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La famille d'où il est issu est connue dans la région.
+[found_matche] close matches: ['La famille <dont> il est issu est connue dans la région.']
+[find_err] err: ['dont']
+[find_err] phrase: ['La', 'famille', "d'", 'où', 'il', 'est', 'issu', 'est', 'connue', 'dans', 'la', 'région']
+[find_err] matche: ['La', 'famille', 'dont', 'il', 'est', 'issu', 'est', 'connue', 'dans', 'la', 'région']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['dont']
+[find_err] list_String_Corr: ['dont']
+[find_err] list_String_Err: ['où', 'où']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: La famille <dont> il est issu est connue dans la région.
+[found_matche] ERROR: où
+[BOT] EXECUTION CLICK DONE
+return_tag: ['où', 'où']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Vous n'imaginez pas les dangers qu'il a courus pour les sauver !
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La biche, avec son faon, traversaient la clairière.
+[found_matche] close matches: ['La biche, avec son faon, <traversait> la clairière.']
+[find_err] err: ['traversait']
+[find_err] phrase: ['La', 'biche', 'avec', 'son', 'faon', 'traversaient', 'la', 'clairière']
+[find_err] matche: ['La', 'biche', 'avec', 'son', 'faon', 'traversait', 'la', 'clairière']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['traversait']
+[find_err] list_String_Corr: ['traversait']
+[find_err] list_String_Err: ['traversaient']
+[found_matche] CLOSE MATCH FOUND: La biche, avec son faon, <traversait> la clairière.
+[found_matche] ERROR: traversaient
+[BOT] EXECUTION CLICK DONE
+return_tag: ['traversaient']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Nous, Cléopâtre, avons été aimées de César, puis d'Antoine », songea la reine d'Égypte.
+[found_matche] close matches: ["« Nous, Cléopâtre, avons été <aimée> de César, puis d'Antoine », songea la reine d'Égypte."]
+[find_err] err: ['aimée']
+[find_err] phrase: ['«', 'Nous', 'Cléopâtre', 'avons', 'été', 'aimées', 'de', 'César', 'puis', "d'", 'Antoine', '»', 'songea', 'la', 'reine', "d'", 'Égypte']
+[find_err] matche: ['«', 'Nous', 'Cléopâtre', 'avons', 'été', 'aimée', 'de', 'César', 'puis', "d'", 'Antoine', '»', 'songea', 'la', 'reine', "d'", 'Égypte']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['aimée']
+[find_err] list_String_Corr: ['aimée']
+[find_err] list_String_Err: ['aimées']
+[found_matche] CLOSE MATCH FOUND: « Nous, Cléopâtre, avons été <aimée> de César, puis d'Antoine », songea la reine d'Égypte.
+[found_matche] ERROR: aimées
+[BOT] EXECUTION CLICK DONE
+return_tag: ['aimées']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est à la directrice à qui je souhaite parler, et à elle seule.
+[found_matche] close matches: ["C'est à la directrice <que> je souhaite parler, et à elle seule."]
+[find_err] err: ['que']
+[find_err] phrase: ["C'", 'est', 'à', 'la', 'directrice', 'à', 'qui', 'je', 'souhaite', 'parler', 'et', 'à', 'elle', 'seule']
+[find_err] matche: ["C'", 'est', 'à', 'la', 'directrice', 'que', 'je', 'souhaite', 'parler', 'et', 'à', 'elle', 'seule']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['que']
+[find_err] list_String_Corr: ['que']
+[find_err] list_String_Err: ['qui', 'à']
+[auto_learning] found error in memory
+[found_matche] CLOSE MATCH FOUND: C'est à la directrice <que> je souhaite parler, et à elle seule.
+[found_matche] ERROR: à
+[BOT] EXECUTION CLICK DONE
+return_tag: ['qui', 'à']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les pompiers organisent défilés, repas et bals en l'honneur de leur protectrice : sainte Barbe.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Un bruit sec, un craquement le firent soudain sursauter.
+[found_matche] close matches: ['Un bruit sec, un craquement le <fit> soudain sursauter.']
+[find_err] err: ['fit']
+[find_err] phrase: ['Un', 'bruit', 'sec', 'un', 'craquement', 'le', 'firent', 'soudain', 'sursauter']
+[find_err] matche: ['Un', 'bruit', 'sec', 'un', 'craquement', 'le', 'fit', 'soudain', 'sursauter']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['fit']
+[find_err] list_String_Corr: ['fit']
+[find_err] list_String_Err: ['firent']
+[found_matche] CLOSE MATCH FOUND: Un bruit sec, un craquement le <fit> soudain sursauter.
+[found_matche] ERROR: firent
+[BOT] EXECUTION CLICK DONE
+return_tag: ['firent']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il était vraiment très intéressé de savoir ce qu'ils en pensaient.
+[found_matche] close matches: ["Il était vraiment très <curieux de savoir> ce qu'ils en pensaient.", "Elle n'était pas du tout <@intéressée> de savoir ce qu'ils pensaient d'elle.", "Il n'a pas l'air d'être <@intéressé> de savoir ce qu'ils en pensent.", 'Il serait très <@intéressé> de faire ce stage dans cette maison de couture.']
+[find_err] err: ['curieux', 'de', 'savoir']
+[find_err] phrase: ['Il', 'était', 'vraiment', 'très', 'intéressé', 'de', 'savoir', 'ce', "qu'", 'ils', 'en', 'pensaient']
+[find_err] matche: ['Il', 'était', 'vraiment', 'très', 'curieux', 'de', 'savoir', 'ce', "qu'", 'ils', 'en', 'pensaient']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['curieux', 'de', 'savoir']
+[find_err] list_String_Corr: ['curieux']
+[find_err] list_String_Err: ['intéressé']
+[found_matche] CLOSE MATCH FOUND: Il était vraiment très <curieux de savoir> ce qu'ils en pensaient.
+[found_matche] ERROR: intéressé
+[BOT] EXECUTION CLICK DONE
+return_tag: ['intéressé']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ma cousine a donné à sa fille un prénom Suédois.
+[found_matche] close matches: ['Ma cousine a donné à sa fille un prénom <suédois>.']
+[find_err] err: ['suédois']
+[find_err] phrase: ['Ma', 'cousine', 'a', 'donné', 'à', 'sa', 'fille', 'un', 'prénom', 'Suédois']
+[find_err] matche: ['Ma', 'cousine', 'a', 'donné', 'à', 'sa', 'fille', 'un', 'prénom', 'suédois']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['suédois']
+[find_err] list_String_Corr: ['suédois']
+[find_err] list_String_Err: ['Suédois']
+[found_matche] CLOSE MATCH FOUND: Ma cousine a donné à sa fille un prénom <suédois>.
+[found_matche] ERROR: Suédois
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Suédois']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Et si je faisais une omelette aux pleurottes, ce soir ?
+[found_matche] close matches: ['Et si je faisais une omelette aux <pleurotes>, ce soir ?']
+[find_err] err: ['pleurotes']
+[find_err] phrase: ['Et', 'si', 'je', 'faisais', 'une', 'omelette', 'aux', 'pleurottes', 'ce', 'soir']
+[find_err] matche: ['Et', 'si', 'je', 'faisais', 'une', 'omelette', 'aux', 'pleurotes', 'ce', 'soir']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['pleurotes']
+[find_err] list_String_Corr: ['pleurotes']
+[find_err] list_String_Err: ['pleurottes']
+[found_matche] CLOSE MATCH FOUND: Et si je faisais une omelette aux <pleurotes>, ce soir ?
+[found_matche] ERROR: pleurottes
+[BOT] EXECUTION CLICK DONE
+return_tag: ['pleurottes']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Nous, Marie Ire Stuart, sommes devenus reine à seulement sept jours, en 1542.
+[found_matche] close matches: ['Nous, Marie Ire Stuart, sommes <devenue> reine à seulement sept jours, en 1542.']
+[find_err] err: ['devenue']
+[find_err] phrase: ['Nous', 'Marie', 'Ire', 'Stuart', 'sommes', 'devenus', 'reine', 'à', 'seulement', 'sept', 'jours', 'en', '1542']
+[find_err] matche: ['Nous', 'Marie', 'Ire', 'Stuart', 'sommes', 'devenue', 'reine', 'à', 'seulement', 'sept', 'jours', 'en', '1542']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['devenue']
+[find_err] list_String_Corr: ['devenue']
+[find_err] list_String_Err: ['devenus']
+[found_matche] CLOSE MATCH FOUND: Nous, Marie Ire Stuart, sommes <devenue> reine à seulement sept jours, en 1542.
+[found_matche] ERROR: devenus
+[BOT] EXECUTION CLICK DONE
+return_tag: ['devenus']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La famille d'où nous descendons s'est installée au Canada au début du xxe siècle.
+[found_matche] close matches: ["La famille <dont> nous descendons s'est installée au Canada au début du xxe siècle.", " nous descendons s'est installée au Canada au début du xxe siècle."]
+[find_err] err: ['dont']
+[find_err] phrase: ['La', 'famille', "d'", 'où', 'nous', 'descendons', "s'", 'est', 'installée', 'au', 'Canada', 'au', 'début', 'du', 'xxe', 'siècle']
+[find_err] matche: ['La', 'famille', 'dont', 'nous', 'descendons', "s'", 'est', 'installée', 'au', 'Canada', 'au', 'début', 'du', 'xxe', 'siècle']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['dont']
+[find_err] list_String_Corr: ['dont']
+[find_err] list_String_Err: ['où', 'où']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: La famille <dont> nous descendons s'est installée au Canada au début du xxe siècle.
+[found_matche] ERROR: où
+[BOT] EXECUTION CLICK DONE
+return_tag: ['où', 'où']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'affolement, l'effarement s'est peint sur son visage.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le ministre de la Justice ou garde des Sceaux venait de partir.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Candide est le personnage d'un conte philosophique éponyme écrit par Voltaire.
+[found_matche] close matches: ["Candide est le personnage d'un conte philosophique <du même nom> écrit par Voltaire."]
+[find_err] err: ['du', 'même', 'nom']
+[find_err] phrase: ['Candide', 'est', 'le', 'personnage', "d'", 'un', 'conte', 'philosophique', 'éponyme', 'écrit', 'par', 'Voltaire']
+[find_err] matche: ['Candide', 'est', 'le', 'personnage', "d'", 'un', 'conte', 'philosophique', 'du', 'même', 'nom', 'écrit', 'par', 'Voltaire']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['du', 'même', 'nom']
+[find_err] list_String_Corr: ['du', 'même', 'nom']
+[find_err] list_String_Err: ['éponyme']
+[found_matche] CLOSE MATCH FOUND: Candide est le personnage d'un conte philosophique <du même nom> écrit par Voltaire.
+[found_matche] ERROR: éponyme
+[BOT] EXECUTION CLICK DONE
+return_tag: ['éponyme']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est le plus gros diamant que l'on n'ait jamais découvert.
+[found_matche] close matches: ["C'est le plus gros diamant que l'on <ait jamais> découvert.", "Ce viaduc est le plus haut que l'on <ait jamais> construit.", "Cet avion est le plus rapide que l'on <ait jamais> conçu."]
+[find_err] err: ['ait', 'jamais']
+[find_err] phrase: ["C'", 'est', 'le', 'plus', 'gros', 'diamant', 'que', "l'", 'on', "n'", 'ait', 'jamais', 'découvert']
+[find_err] matche: ["C'", 'est', 'le', 'plus', 'gros', 'diamant', 'que', "l'", 'on', 'ait', 'jamais', 'découvert']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['ait', 'jamais']
+[find_err] list_String_Corr: []
+[find_err] list_String_Err: ['n']
+[found_matche] CLOSE MATCH FOUND: C'est le plus gros diamant que l'on <ait jamais> découvert.
+[found_matche] ERROR: n
+[BOT] EXECUTION CLICK DONE
+return_tag: ['n']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Pourrait‑elle être intéressée par ce poste ?
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Nos enfants ont appris l'Anglais très jeunes, car nous avons vécu pendant dix ans à Londres.
+[found_matche] close matches: ["Nos enfants ont appris l'<anglais> très jeunes, car nous avons vécu pendant dix ans à Londres."]
+[find_err] err: ['anglais']
+[find_err] phrase: ['Nos', 'enfants', 'ont', 'appris', "l'", 'Anglais', 'très', 'jeunes', 'car', 'nous', 'avons', 'vécu', 'pendant', 'dix', 'ans', 'à', 'Londres']
+[find_err] matche: ['Nos', 'enfants', 'ont', 'appris', "l'", 'anglais', 'très', 'jeunes', 'car', 'nous', 'avons', 'vécu', 'pendant', 'dix', 'ans', 'à', 'Londres']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['anglais']
+[find_err] list_String_Corr: ['anglais']
+[find_err] list_String_Err: ['Anglais']
+[found_matche] CLOSE MATCH FOUND: Nos enfants ont appris l'<anglais> très jeunes, car nous avons vécu pendant dix ans à Londres.
+[found_matche] ERROR: Anglais
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Anglais']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'était une belle demeure dont la décoration était vieillote.
+[found_matche] close matches: ["C'était une belle demeure dont la décoration était <vieillotte>."]
+[find_err] err: ['vieillotte']
+[find_err] phrase: ["C'", 'était', 'une', 'belle', 'demeure', 'dont', 'la', 'décoration', 'était', 'vieillote']
+[find_err] matche: ["C'", 'était', 'une', 'belle', 'demeure', 'dont', 'la', 'décoration', 'était', 'vieillotte']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['vieillotte']
+[find_err] list_String_Corr: ['vieillotte']
+[find_err] list_String_Err: ['vieillote']
+[found_matche] CLOSE MATCH FOUND: C'était une belle demeure dont la décoration était <vieillotte>.
+[found_matche] ERROR: vieillote
+[BOT] EXECUTION CLICK DONE
+return_tag: ['vieillote']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est là où nous vivions, avant votre naissance.
+[found_matche] close matches: ["C'est là <que> nous vivions, avant votre naissance."]
+[find_err] err: ['que']
+[find_err] phrase: ["C'", 'est', 'là', 'où', 'nous', 'vivions', 'avant', 'votre', 'naissance']
+[find_err] matche: ["C'", 'est', 'là', 'que', 'nous', 'vivions', 'avant', 'votre', 'naissance']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['que']
+[find_err] list_String_Corr: ['que']
+[find_err] list_String_Err: ['où']
+[found_matche] CLOSE MATCH FOUND: C'est là <que> nous vivions, avant votre naissance.
+[found_matche] ERROR: où
+[BOT] EXECUTION CLICK DONE
+return_tag: ['où']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'un ou l'autre remportera aujourd'hui la médaille d'or.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'auteur de Madame Bovary reconnaissait avoir des points communs avec l'héroïne éponyme.
+[found_matche] close matches: ["L'auteur de Madame Bovary reconnaissait avoir des points communs avec l'héroïne "]
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il a échappé des paroles qu'il regrette.
+[found_matche] close matches: ["Il a <laissé échapper> des paroles qu'il regrette."]
+[find_err] err: ['laissé', 'échapper']
+[find_err] phrase: ['Il', 'a', 'échappé', 'des', 'paroles', "qu'", 'il', 'regrette']
+[find_err] matche: ['Il', 'a', 'laissé', 'échapper', 'des', 'paroles', "qu'", 'il', 'regrette']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['laissé', 'échapper']
+[find_err] list_String_Corr: ['laissé', 'échapper']
+[find_err] list_String_Err: ['échappé']
+[found_matche] CLOSE MATCH FOUND: Il a <laissé échapper> des paroles qu'il regrette.
+[found_matche] ERROR: échappé
+[BOT] EXECUTION CLICK DONE
+return_tag: ['échappé']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Désespérés, ils adressaient leurs prières à Sainte‑Rita.
+[found_matche] close matches: ['Désespérés, ils adressaient leurs prières à <sainte Rita>.']
+[find_err] err: ['sainte', 'Rita']
+[find_err] phrase: ['Désespérés', 'ils', 'adressaient', 'leurs', 'prières', 'à', 'Sainte-', 'Rita']
+[find_err] matche: ['Désespérés', 'ils', 'adressaient', 'leurs', 'prières', 'à', 'sainte', 'Rita']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['sainte', 'Rita']
+[find_err] list_String_Corr: ['sainte']
+[find_err] list_String_Err: ['Sainte']
+[found_matche] CLOSE MATCH FOUND: Désespérés, ils adressaient leurs prières à <sainte Rita>.
+[found_matche] ERROR: Sainte
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Sainte']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette remarque était complètement , excusez‑moi.
+[found_matche] close matches: ['Cette remarque était complètement <idiote>, excusez-moi.']
+[find_err] err: ['idiote']
+[find_err] phrase: ['Cette', 'remarque', 'était', 'complètementi']
+[find_err] matche: ['Cette', 'remarque', 'était', 'complètement', 'idiote', 'excusez-', 'moi']
+[find_err] Words_err: ['idiote']
+[find_err] list_String_Corr: ['complètement', 'idiote', 'excusez-', 'moi']
+[find_err] list_String_Err: ['complètementi']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 34 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Allez, mon grand, va‑le chercher, s'il te plaît : je ne veux pas que tu sortes sans manteau.
+[found_matche] close matches: ["Allez, mon grand, <va le chercher>, s'il te plaît : je ne veux pas que tu sortes sans manteau."]
+[find_err] err: ['va', 'le', 'chercher']
+[find_err] phrase: ['Allez', 'mon', 'grand', 'va-', 'le', 'chercher', "s'", 'il', 'te', 'plaît', ':', 'je', 'ne', 'veux', 'pas', 'que', 'tu', 'sortes', 'sans', 'manteau']
+[find_err] matche: ['Allez', 'mon', 'grand', 'va', 'le', 'chercher', "s'", 'il', 'te', 'plaît', ':', 'je', 'ne', 'veux', 'pas', 'que', 'tu', 'sortes', 'sans', 'manteau']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['va', 'le', 'chercher']
+[find_err] list_String_Corr: ['va']
+[find_err] list_String_Err: ['va']
+[found_matche] CLOSE MATCH FOUND: Allez, mon grand, <va le chercher>, s'il te plaît : je ne veux pas que tu sortes sans manteau.
+[found_matche] ERROR: va
+[BOT] EXECUTION CLICK DONE
+return_tag: ['va']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le talent et surtout la persévérance lui a permis de réaliser ses rêves.
+[found_matche] close matches: ['Le talent et surtout la persévérance lui <ont permis> de réaliser ses rêves.']
+[find_err] err: ['ont', 'permis']
+[find_err] phrase: ['Le', 'talent', 'et', 'surtout', 'la', 'persévérance', 'lui', 'a', 'permis', 'de', 'réaliser', 'ses', 'rêves']
+[find_err] matche: ['Le', 'talent', 'et', 'surtout', 'la', 'persévérance', 'lui', 'ont', 'permis', 'de', 'réaliser', 'ses', 'rêves']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['ont', 'permis']
+[find_err] list_String_Corr: ['ont']
+[find_err] list_String_Err: ['a']
+[found_matche] CLOSE MATCH FOUND: Le talent et surtout la persévérance lui <ont permis> de réaliser ses rêves.
+[found_matche] ERROR: a
+[BOT] EXECUTION CLICK DONE
+return_tag: ['a']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ce fossile de dinosaure est le mieux conservé que l'on ait jamais découvert.
+[found_matche] close matches: ["Ce viaduc est le plus haut que l'on <ait jamais> construit.", "C'est le plus gros diamant que l'on <ait jamais> découvert.", "Cet avion est le plus rapide que l'on <ait jamais> conçu."]
+[find_err] err: ['ait', 'jamais']
+[find_err] phrase: ['Ce', 'fossile', 'de', 'dinosaure', 'est', 'le', 'mieux', 'conservé', 'que', "l'", 'on', 'ait', 'jamais', 'découvert']
+[find_err] matche: ['Ce', 'viaduc', 'est', 'le', 'plus', 'haut', 'que', "l'", 'on', 'ait', 'jamais', 'construit']
+[find_err] Words_err: ['ait', 'jamais']
+[find_err] list_String_Corr: ['viaduc', 'plus', 'haut', 'construit']
+[find_err] list_String_Err: ['fossile', 'de', 'dinosaure', 'mieux', 'conservé', 'découvert']
+[find_err] Close Match INCORRECT
+
+[find_err] err: ['ait', 'jamais']
+[find_err] phrase: ['Ce', 'fossile', 'de', 'dinosaure', 'est', 'le', 'mieux', 'conservé', 'que', "l'", 'on', 'ait', 'jamais', 'découvert']
+[find_err] matche: ["C'", 'est', 'le', 'plus', 'gros', 'diamant', 'que', "l'", 'on', 'ait', 'jamais', 'découvert']
+[find_err] Words_err: ['ait', 'jamais']
+[find_err] list_String_Corr: ["C'", 'plus', 'gros', 'diamant']
+[find_err] list_String_Err: ['Ce', 'fossile', 'de', 'dinosaure', 'mieux', 'conservé']
+[find_err] Close Match INCORRECT
+
+[find_err] err: ['ait', 'jamais']
+[find_err] phrase: ['Ce', 'fossile', 'de', 'dinosaure', 'est', 'le', 'mieux', 'conservé', 'que', "l'", 'on', 'ait', 'jamais', 'découvert']
+[find_err] matche: ['Cet', 'avion', 'est', 'le', 'plus', 'rapide', 'que', "l'", 'on', 'ait', 'jamais', 'conçu']
+[find_err] Words_err: ['ait', 'jamais']
+[find_err] list_String_Corr: ['Cet', 'avion', 'plus', 'rapide', 'conçu']
+[find_err] list_String_Err: ['Ce', 'fossile', 'de', 'dinosaure', 'mieux', 'conservé', 'découvert']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Quand je pense aux ennuis que toute cette histoire m'a valu !
+[found_matche] close matches: ["Quand je pense aux ennuis que toute cette histoire m'a <valus> !"]
+[find_err] err: ['valus']
+[find_err] phrase: ['Quand', 'je', 'pense', 'aux', 'ennuis', 'que', 'toute', 'cette', 'histoire', "m'", 'a', 'valu']
+[find_err] matche: ['Quand', 'je', 'pense', 'aux', 'ennuis', 'que', 'toute', 'cette', 'histoire', "m'", 'a', 'valus']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['valus']
+[find_err] list_String_Corr: ['valus']
+[find_err] list_String_Err: ['valu']
+[found_matche] CLOSE MATCH FOUND: Quand je pense aux ennuis que toute cette histoire m'a <valus> !
+[found_matche] ERROR: valu
+[BOT] EXECUTION CLICK DONE
+return_tag: ['valu']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Si Dick Fosbury a disparu de la scène internationale, le saut éponyme conserve de nombreux adeptes.
+[found_matche] close matches: ['Si Dick Fosbury a disparu de la scène internationale, le saut <qui porte son nom> conserve de nombreux adeptes.']
+[find_err] err: ['qui', 'porte', 'son', 'nom']
+[find_err] phrase: ['Si', 'Dick', 'Fosbury', 'a', 'disparu', 'de', 'la', 'scène', 'internationale', 'le', 'saut', 'éponyme', 'conserve', 'de', 'nombreux', 'adeptes']
+[find_err] matche: ['Si', 'Dick', 'Fosbury', 'a', 'disparu', 'de', 'la', 'scène', 'internationale', 'le', 'saut', 'qui', 'porte', 'son', 'nom', 'conserve', 'de', 'nombreux', 'adeptes']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['qui', 'porte', 'son', 'nom']
+[find_err] list_String_Corr: ['qui', 'porte', 'son', 'nom']
+[find_err] list_String_Err: ['éponyme']
+[found_matche] CLOSE MATCH FOUND: Si Dick Fosbury a disparu de la scène internationale, le saut <qui porte son nom> conserve de nombreux adeptes.
+[found_matche] ERROR: éponyme
+[BOT] EXECUTION CLICK DONE
+return_tag: ['éponyme']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est là que nous avons vécu pendant sept ans.
+[found_matche] close matches: ["C'est là <que> nous vivions, avant votre naissance."]
+[find_err] err: ['que']
+[find_err] phrase: ["C'", 'est', 'là', 'que', 'nous', 'avons', 'vécu', 'pendant', 'sept', 'ans']
+[find_err] matche: ["C'", 'est', 'là', 'que', 'nous', 'vivions', 'avant', 'votre', 'naissance']
+[find_err] Words_err: ['que']
+[find_err] list_String_Corr: ['vivions', 'avant', 'votre', 'naissance']
+[find_err] list_String_Err: ['avons', 'vécu', 'pendant', 'sept', 'ans']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ces trois dernières années, ses revenus ont beaucoup cru.
+[found_matche] close matches: ['Ces trois dernières années, ses revenus ont beaucoup <crû>.']
+[find_err] err: ['crû']
+[find_err] phrase: ['Ces', 'trois', 'dernières', 'années', 'ses', 'revenus', 'ont', 'beaucoup', 'cru']
+[find_err] matche: ['Ces', 'trois', 'dernières', 'années', 'ses', 'revenus', 'ont', 'beaucoup', 'crû']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['crû']
+[find_err] list_String_Corr: ['crû']
+[find_err] list_String_Err: ['cru']
+[found_matche] CLOSE MATCH FOUND: Ces trois dernières années, ses revenus ont beaucoup <crû>.
+[found_matche] ERROR: cru
+[BOT] EXECUTION CLICK DONE
+return_tag: ['cru']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Elle parle un Allemand excellent, ce qui lui est très utile dans son travail.
+[found_matche] close matches: ['Elle parle un <allemand> excellent, ce qui lui est très utile dans son travail.']
+[find_err] err: ['allemand']
+[find_err] phrase: ['Elle', 'parle', 'un', 'Allemand', 'excellent', 'ce', 'qui', 'lui', 'est', 'très', 'utile', 'dans', 'son', 'travail']
+[find_err] matche: ['Elle', 'parle', 'un', 'allemand', 'excellent', 'ce', 'qui', 'lui', 'est', 'très', 'utile', 'dans', 'son', 'travail']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['allemand']
+[find_err] list_String_Corr: ['allemand']
+[find_err] list_String_Err: ['Allemand']
+[found_matche] CLOSE MATCH FOUND: Elle parle un <allemand> excellent, ce qui lui est très utile dans son travail.
+[found_matche] ERROR: Allemand
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Allemand']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: « Je t'avais juste prêté ce jeu. Maintenant,  ! » dit le petit garçon à son frère.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 8 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ce pain au chocolat, ou chocolatine, me font saliver !
+[found_matche] close matches: ['Ce pain au chocolat, ou chocolatine, me <fait> saliver !']
+[find_err] err: ['fait']
+[find_err] phrase: ['Ce', 'pain', 'au', 'chocolat', 'ou', 'chocolatine', 'me', 'font', 'saliver']
+[find_err] matche: ['Ce', 'pain', 'au', 'chocolat', 'ou', 'chocolatine', 'me', 'fait', 'saliver']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['fait']
+[find_err] list_String_Corr: ['fait']
+[find_err] list_String_Err: ['font']
+[found_matche] CLOSE MATCH FOUND: Ce pain au chocolat, ou chocolatine, me <fait> saliver !
+[found_matche] ERROR: font
+[BOT] EXECUTION CLICK DONE
+return_tag: ['font']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Nous, roi de France, sommes de voir les plans de ce nouveau château.
+[found_matche] close matches: ['Nous, roi de France, sommes <impatient> de voir les plans de ce nouveau château.']
+[find_err] err: ['impatient']
+[find_err] phrase: ['Nous', 'roi', 'de', 'France', 'sommes', 'de', 'voir', 'les', 'plans', 'de', 'ce', 'nouveau', 'château']
+[find_err] matche: ['Nous', 'roi', 'de', 'France', 'sommes', 'impatient', 'de', 'voir', 'les', 'plans', 'de', 'ce', 'nouveau', 'château']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['impatient']
+[find_err] list_String_Corr: ['impatient']
+[find_err] list_String_Err: ['impatient']
+[found_matche] CLOSE MATCH FOUND: Nous, roi de France, sommes <impatient> de voir les plans de ce nouveau château.
+[found_matche] ERROR: impatient
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['impatient']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La rue est désormais piétonne.
+[found_matche] close matches: ['La rue <Saint-Vincent> est désormais piétonne.']
+[find_err] err: ['Saint-', 'Vincent']
+[find_err] phrase: ['La', 'rue', 'est', 'désormais', 'piétonne']
+[find_err] matche: ['La', 'rue', 'Saint-', 'Vincent', 'est', 'désormais', 'piétonne']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Saint', 'Vincent']
+[find_err] list_String_Corr: ['Saint-', 'Vincent']
+[find_err] list_String_Err: ['Saint', 'Vincent']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: La rue <Saint-Vincent> est désormais piétonne.
+[found_matche] ERROR: Saint
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['Saint', 'Vincent']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est le plus beau morceau qu'il n'ait jamais composé.
+[found_matche] close matches: ["C'est le plus beau morceau qu'il <ait jamais> composé.", "C'est le plus beau poème qu'elle <ait jamais> écrit.", "Ce viaduc est le plus haut que l'on <ait jamais> construit."]
+[find_err] err: ['ait', 'jamais']
+[find_err] phrase: ["C'", 'est', 'le', 'plus', 'beau', 'morceau', "qu'", 'il', "n'", 'ait', 'jamais', 'composé']
+[find_err] matche: ["C'", 'est', 'le', 'plus', 'beau', 'morceau', "qu'", 'il', 'ait', 'jamais', 'composé']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['ait', 'jamais']
+[find_err] list_String_Corr: []
+[find_err] list_String_Err: ['n']
+[found_matche] CLOSE MATCH FOUND: C'est le plus beau morceau qu'il <ait jamais> composé.
+[found_matche] ERROR: n
+[BOT] EXECUTION CLICK DONE
+return_tag: ['n']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les cent mètres qu'il a ont suffi à le mettre hors d'haleine.
+[found_matche] close matches: ["Les cent mètres qu'il a <couru> ont suffi à le mettre hors d'haleine."]
+[find_err] err: ['couru']
+[find_err] phrase: ['Les', 'cent', 'mètres', "qu'", 'il', 'a', 'ont', 'suffi', 'à', 'le', 'mettre', 'hors', "d'", 'haleine']
+[find_err] matche: ['Les', 'cent', 'mètres', "qu'", 'il', 'a', 'couru', 'ont', 'suffi', 'à', 'le', 'mettre', 'hors', "d'", 'haleine']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['couru']
+[find_err] list_String_Corr: ['couru']
+[find_err] list_String_Err: ['couru']
+[found_matche] CLOSE MATCH FOUND: Les cent mètres qu'il a <couru> ont suffi à le mettre hors d'haleine.
+[found_matche] ERROR: couru
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['couru']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Pendant notre absence, les mauvaises herbes avaient .
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 5 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Allez, dis‑le moi, je te promets que je ne répéterai rien à personne…
+[found_matche] close matches: ['Allez, <dis-le-moi>, je te promets que je ne répéterai rien à personne…']
+[find_err] err: ['dis-', 'le-', 'moi']
+[find_err] phrase: ['Allez', 'dis-', 'le', 'moi', 'je', 'te', 'promets', 'que', 'je', 'ne', 'répéterai', 'rien', 'à', 'personne…']
+[find_err] matche: ['Allez', 'dis-', 'le-', 'moi', 'je', 'te', 'promets', 'que', 'je', 'ne', 'répéterai', 'rien', 'à', 'personne…']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['dis-', 'le-', 'moi']
+[find_err] list_String_Corr: ['le-']
+[find_err] list_String_Err: ['le']
+[found_matche] CLOSE MATCH FOUND: Allez, <dis-le-moi>, je te promets que je ne répéterai rien à personne…
+[found_matche] ERROR: le
+[BOT] EXECUTION CLICK DONE
+return_tag: ['le']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il déblatère encore une fois contre eux.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Comme il ne répondait pas au téléphone, ils ont crû qu'il lui était arrivé quelque chose.
+[found_matche] close matches: ["Comme il ne répondait pas au téléphone, ils ont <cru> qu'il lui était arrivé quelque chose."]
+[find_err] err: ['cru']
+[find_err] phrase: ['Comme', 'il', 'ne', 'répondait', 'pas', 'au', 'téléphone', 'ils', 'ont', 'crû', "qu'", 'il', 'lui', 'était', 'arrivé', 'quelque', 'chose']
+[find_err] matche: ['Comme', 'il', 'ne', 'répondait', 'pas', 'au', 'téléphone', 'ils', 'ont', 'cru', "qu'", 'il', 'lui', 'était', 'arrivé', 'quelque', 'chose']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['cru']
+[find_err] list_String_Corr: ['cru']
+[find_err] list_String_Err: ['crû']
+[found_matche] CLOSE MATCH FOUND: Comme il ne répondait pas au téléphone, ils ont <cru> qu'il lui était arrivé quelque chose.
+[found_matche] ERROR: crû
+[BOT] EXECUTION CLICK DONE
+return_tag: ['crû']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ce message est de la plus haute importance, remettez‑le lui dès que possible.
+[found_matche] close matches: ['Ce message est de la plus haute importance, <remettez-le-lui> dès que possible.']
+[find_err] err: ['remettez-', 'le-', 'lui']
+[find_err] phrase: ['Ce', 'message', 'est', 'de', 'la', 'plus', 'haute', 'importance', 'remettez-', 'le', 'lui', 'dès', 'que', 'possible']
+[find_err] matche: ['Ce', 'message', 'est', 'de', 'la', 'plus', 'haute', 'importance', 'remettez-', 'le-', 'lui', 'dès', 'que', 'possible']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['remettez-', 'le-', 'lui']
+[find_err] list_String_Corr: ['le-']
+[find_err] list_String_Err: ['le']
+[found_matche] CLOSE MATCH FOUND: Ce message est de la plus haute importance, <remettez-le-lui> dès que possible.
+[found_matche] ERROR: le
+[BOT] EXECUTION CLICK DONE
+return_tag: ['le']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette année, notre production a cru de 12 %.
+[found_matche] close matches: ['Cette année, notre production a <crû> de 12 %.']
+[find_err] err: ['crû']
+[find_err] phrase: ['Cette', 'année', 'notre', 'production', 'a', 'cru', 'de', '12%']
+[find_err] matche: ['Cette', 'année', 'notre', 'production', 'a', 'crû', 'de', '12%']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['crû']
+[find_err] list_String_Corr: ['crû']
+[find_err] list_String_Err: ['cru']
+[found_matche] CLOSE MATCH FOUND: Cette année, notre production a <crû> de 12 %.
+[found_matche] ERROR: cru
+[BOT] EXECUTION CLICK DONE
+return_tag: ['cru']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cet endroit ne me dit rien qui vaille, allons nous en !
+[found_matche] close matches: ['Cet endroit ne me dit rien qui vaille, <allons-nous-en> !']
+[find_err] err: ['allons-', 'nous-', 'en']
+[find_err] phrase: ['Cet', 'endroit', 'ne', 'me', 'dit', 'rien', 'qui', 'vaille', 'allons', 'nous', 'en']
+[find_err] matche: ['Cet', 'endroit', 'ne', 'me', 'dit', 'rien', 'qui', 'vaille', 'allons-', 'nous-', 'en']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['allons-', 'nous-', 'en']
+[find_err] list_String_Corr: ['allons-', 'nous-']
+[find_err] list_String_Err: ['allons', 'nous']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Cet endroit ne me dit rien qui vaille, <allons-nous-en> !
+[found_matche] ERROR: allons
+[BOT] EXECUTION CLICK DONE
+return_tag: ['allons', 'nous']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Pourquoi n'ont‑ils pas crû ce que disaient tous les experts ?
+[found_matche] close matches: ["Pourquoi n'ont-ils pas <cru> ce que disaient tous les experts ?"]
+[find_err] err: ['cru']
+[find_err] phrase: ['Pourquoi', "n'", 'ont-', 'ils', 'pas', 'crû', 'ce', 'que', 'disaient', 'tous', 'les', 'experts']
+[find_err] matche: ['Pourquoi', "n'", 'ont-', 'ils', 'pas', 'cru', 'ce', 'que', 'disaient', 'tous', 'les', 'experts']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['cru']
+[find_err] list_String_Corr: ['cru']
+[find_err] list_String_Err: ['crû']
+[found_matche] CLOSE MATCH FOUND: Pourquoi n'ont-ils pas <cru> ce que disaient tous les experts ?
+[found_matche] ERROR: crû
+[BOT] EXECUTION CLICK DONE
+return_tag: ['crû']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: parler, nous pourrons peut‑être lui faire entendre raison.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 7 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Tu n'as quand même pas que j'allais faire cela à ta place ?
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 0 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Vous êtes les bienvenus ! Venez‑nous voir quand vous voulez, cet été !
+[found_matche] close matches: ['Vous êtes les bienvenus ! <Venez nous> voir quand vous voulez, cet été !']
+[find_err] err: ['Venez', 'nous']
+[find_err] phrase: ['Vous', 'êtes', 'les', 'bienvenus', '!', 'Venez-', 'nous', 'voir', 'quand', 'vous', 'voulez', 'cet', 'été']
+[find_err] matche: ['Vous', 'êtes', 'les', 'bienvenus', '!', 'Venez', 'nous', 'voir', 'quand', 'vous', 'voulez', 'cet', 'été']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Venez', 'nous']
+[find_err] list_String_Corr: ['Venez']
+[find_err] list_String_Err: ['Venez']
+[found_matche] CLOSE MATCH FOUND: Vous êtes les bienvenus ! <Venez nous> voir quand vous voulez, cet été !
+[found_matche] ERROR: Venez
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Venez']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Vous êtes déjà à la gare ? Attendez‑nous y, nous serons là dans cinq minutes !
+[found_matche] close matches: ['Vous êtes déjà à la gare ? <Attendez-nous-y>, nous serons là dans cinq minutes !']
+[find_err] err: ['Attendez-', 'nous-', 'y']
+[find_err] phrase: ['Vous', 'êtes', 'déjà', 'à', 'la', 'gare', '?', 'Attendez-', 'nous', 'y', 'nous', 'serons', 'là', 'dans', 'cinq', 'minutes']
+[find_err] matche: ['Vous', 'êtes', 'déjà', 'à', 'la', 'gare', '?', 'Attendez-', 'nous-', 'y', 'nous', 'serons', 'là', 'dans', 'cinq', 'minutes']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Attendez-', 'nous-', 'y']
+[find_err] list_String_Corr: ['nous-']
+[find_err] list_String_Err: ['nous']
+[found_matche] CLOSE MATCH FOUND: Vous êtes déjà à la gare ? <Attendez-nous-y>, nous serons là dans cinq minutes !
+[found_matche] ERROR: nous
+[BOT] EXECUTION CLICK DONE
+return_tag: ['nous']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Oui, bien sûr, faites le entrer.
+[found_matche] close matches: ['Oui, bien sûr, <faites-le> entrer.']
+[find_err] err: ['faites-', 'le']
+[find_err] phrase: ['Oui', 'bien', 'sûr', 'faites', 'le', 'entrer']
+[find_err] matche: ['Oui', 'bien', 'sûr', 'faites-', 'le', 'entrer']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['faites-', 'le']
+[find_err] list_String_Corr: ['faites-']
+[find_err] list_String_Err: ['faites']
+[found_matche] CLOSE MATCH FOUND: Oui, bien sûr, <faites-le> entrer.
+[found_matche] ERROR: faites
+[BOT] EXECUTION CLICK DONE
+return_tag: ['faites']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: «  dire en face, si tu l'oses », répondit l'homme en posant son verre.
+[found_matche] close matches: ["« <Viens le> dire en face, si tu l'oses », répondit l'homme en posant son verre."]
+[find_err] err: ['Viens', 'le']
+[find_err] phrase: ['«e']
+[find_err] matche: ['«', 'Viens', 'le', 'dire', 'en', 'face', 'si', 'tu', "l'", 'oses', '»', 'répondit', "l'", 'homme', 'en', 'posant', 'son', 'verre']
+[find_err] Words_err: ['Viens', 'le']
+[find_err] list_String_Corr: ['«', 'Viens', 'le', 'dire', 'en', 'face', 'si', 'tu', "l'", 'oses', '»', 'répondit', "l'", 'homme', 'en', 'posant', 'son', 'verre']
+[find_err] list_String_Err: ['«e']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 3 questions
+[BOT] ####### WORKING #######
+[Module] Fichier [./Modules/Excellence/Module12.txt] chargé
+
+[BOT] PHRASE: Amira et Gustave sont les élèves les plus brillants de la classe.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Son enterrement n'avait donné lieu à aucune condoléance.
+[found_matche] close matches: ["Son enterrement n'avait donné lieu à <aucunes condoléances>."]
+[find_err] err: ['aucunes', 'condoléances']
+[find_err] phrase: ['Son', 'enterrement', "n'", 'avait', 'donné', 'lieu', 'à', 'aucune', 'condoléance']
+[find_err] matche: ['Son', 'enterrement', "n'", 'avait', 'donné', 'lieu', 'à', 'aucunes', 'condoléances']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['aucunes', 'condoléances']
+[find_err] list_String_Corr: ['aucunes', 'condoléances']
+[find_err] list_String_Err: ['aucune', 'condoléance']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Son enterrement n'avait donné lieu à <aucunes condoléances>.
+[found_matche] ERROR: aucune
+[BOT] EXECUTION CLICK DONE
+return_tag: ['aucune', 'condoléance']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Mozart n'est rien moins qu'un compositeur de génie.
+[found_matche] close matches: ["Mozart n'est <rien de moins> qu'un compositeur de génie."]
+[find_err] err: ['rien', 'de', 'moins']
+[find_err] phrase: ['Mozart', "n'", 'est', 'rien', 'moins', "qu'", 'un', 'compositeur', 'de', 'génie']
+[find_err] matche: ['Mozart', "n'", 'est', 'rien', 'de', 'moins', "qu'", 'un', 'compositeur', 'de', 'génie']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['rien', 'de', 'moins']
+[find_err] list_String_Corr: ['de']
+[find_err] list_String_Err: ['rien', 'de', 'moins']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Mozart n'est <rien de moins> qu'un compositeur de génie.
+[found_matche] ERROR: rien
+[BOT] EXECUTION CLICK DONE
+return_tag: ['rien', 'de', 'moins']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Quoiqu'il est normal que les enfants quittent un jour le nid, c'est un moment parfois difficile pour les parents.
+[found_matche] close matches: ["Quoiqu'il <soit> normal que les enfants quittent un jour le nid, c'est un moment parfois difficile pour les parents."]
+[find_err] err: ['soit']
+[find_err] phrase: ["Quoiqu'", 'il', 'est', 'normal', 'que', 'les', 'enfants', 'quittent', 'un', 'jour', 'le', 'nid', "c'", 'est', 'un', 'moment', 'parfois', 'difficile', 'pour', 'les', 'parents']
+[find_err] matche: ["Quoiqu'", 'il', 'soit', 'normal', 'que', 'les', 'enfants', 'quittent', 'un', 'jour', 'le', 'nid', "c'", 'est', 'un', 'moment', 'parfois', 'difficile', 'pour', 'les', 'parents']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['soit']
+[find_err] list_String_Corr: ['soit']
+[find_err] list_String_Err: ['est']
+[found_matche] CLOSE MATCH FOUND: Quoiqu'il <soit> normal que les enfants quittent un jour le nid, c'est un moment parfois difficile pour les parents.
+[found_matche] ERROR: est
+[BOT] EXECUTION CLICK DONE
+return_tag: ['est']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'opportunité de cette décision me semble discutable.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Le médecin doit encore examiner quatre à cinq patients.
+[found_matche] close matches: ['Le médecin doit encore examiner quatre <ou> cinq patients.']
+[find_err] err: ['ou']
+[find_err] phrase: ['Le', 'médecin', 'doit', 'encore', 'examiner', 'quatre', 'à', 'cinq', 'patients']
+[find_err] matche: ['Le', 'médecin', 'doit', 'encore', 'examiner', 'quatre', 'ou', 'cinq', 'patients']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['ou']
+[find_err] list_String_Corr: ['ou']
+[find_err] list_String_Err: ['à']
+[found_matche] CLOSE MATCH FOUND: Le médecin doit encore examiner quatre <ou> cinq patients.
+[found_matche] ERROR: à
+[BOT] EXECUTION CLICK DONE
+return_tag: ['à']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: L'intérieur de ma voiture n'est pas toujours impeccable, loin s'en faut !
+[found_matche] close matches: ["L'intérieur de ma voiture n'est pas toujours impeccable, <tant> s'en faut !"]
+[find_err] err: ['tant']
+[find_err] phrase: ["L'", 'intérieur', 'de', 'ma', 'voiture', "n'", 'est', 'pas', 'toujours', 'impeccable', 'loin', "s'", 'en', 'faut']
+[find_err] matche: ["L'", 'intérieur', 'de', 'ma', 'voiture', "n'", 'est', 'pas', 'toujours', 'impeccable', 'tant', "s'", 'en', 'faut']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tant']
+[find_err] list_String_Corr: ['tant']
+[find_err] list_String_Err: ['loin']
+[found_matche] CLOSE MATCH FOUND: L'intérieur de ma voiture n'est pas toujours impeccable, <tant> s'en faut !
+[found_matche] ERROR: loin
+[BOT] EXECUTION CLICK DONE
+return_tag: ['loin']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Et si nous invitions les Martins à dîner, samedi soir ?
+[found_matche] close matches: ['Et si nous invitions les <Martin> à dîner, samedi soir ?']
+[find_err] err: ['Martin']
+[find_err] phrase: ['Et', 'si', 'nous', 'invitions', 'les', 'Martins', 'à', 'dîner', 'samedi', 'soir']
+[find_err] matche: ['Et', 'si', 'nous', 'invitions', 'les', 'Martin', 'à', 'dîner', 'samedi', 'soir']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Martin']
+[find_err] list_String_Corr: ['Martin']
+[find_err] list_String_Err: ['Martins']
+[found_matche] CLOSE MATCH FOUND: Et si nous invitions les <Martin> à dîner, samedi soir ?
+[found_matche] ERROR: Martins
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Martins']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Lundi, je dois apporter le chien chez le vétérinaire, sais‑tu où est sa laisse ?
+[found_matche] close matches: ['Lundi, je dois <amener> le chien chez le vétérinaire, sais-tu où est sa laisse ?']
+[find_err] err: ['amener']
+[find_err] phrase: ['Lundi', 'je', 'dois', 'apporter', 'le', 'chien', 'chez', 'le', 'vétérinaire', 'sais-', 'tu', 'où', 'est', 'sa', 'laisse']
+[find_err] matche: ['Lundi', 'je', 'dois', 'amener', 'le', 'chien', 'chez', 'le', 'vétérinaire', 'sais-', 'tu', 'où', 'est', 'sa', 'laisse']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['amener']
+[find_err] list_String_Corr: ['amener']
+[find_err] list_String_Err: ['apporter']
+[found_matche] CLOSE MATCH FOUND: Lundi, je dois <amener> le chien chez le vétérinaire, sais-tu où est sa laisse ?
+[found_matche] ERROR: apporter
+[BOT] EXECUTION CLICK DONE
+return_tag: ['apporter']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les deux hommes buvaient sans soif.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Au feu vert, le véhicule a démarré en trombe.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les trois chambres sont orientées au Nord.
+[found_matche] close matches: ['Les trois chambres sont orientées au <nord>.']
+[find_err] err: ['nord']
+[find_err] phrase: ['Les', 'trois', 'chambres', 'sont', 'orientées', 'au', 'Nord']
+[find_err] matche: ['Les', 'trois', 'chambres', 'sont', 'orientées', 'au', 'nord']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['nord']
+[find_err] list_String_Corr: ['nord']
+[find_err] list_String_Err: ['Nord']
+[found_matche] CLOSE MATCH FOUND: Les trois chambres sont orientées au <nord>.
+[found_matche] ERROR: Nord
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Nord']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Cette décision n'a pas fait l'unanimité, loin s'en faut !
+[found_matche] close matches: ["Cette décision n'a pas fait l'unanimité, <tant> s'en faut !", "Cette tenue n'était pas très élégante, <tant> s'en faut !"]
+[find_err] err: ['tant']
+[find_err] phrase: ['Cette', 'décision', "n'", 'a', 'pas', 'fait', "l'", 'unanimité', 'loin', "s'", 'en', 'faut']
+[find_err] matche: ['Cette', 'décision', "n'", 'a', 'pas', 'fait', "l'", 'unanimité', 'tant', "s'", 'en', 'faut']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['tant']
+[find_err] list_String_Corr: ['tant']
+[find_err] list_String_Err: ['loin']
+[found_matche] CLOSE MATCH FOUND: Cette décision n'a pas fait l'unanimité, <tant> s'en faut !
+[found_matche] ERROR: loin
+[BOT] EXECUTION CLICK DONE
+return_tag: ['loin']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il n'est rien moins qu'un ami fidèle, je sais que je peux compter sur lui.
+[found_matche] close matches: ["Il n'est <rien de moins> qu'un ami fidèle, je sais que je peux compter sur lui."]
+[find_err] err: ['rien', 'de', 'moins']
+[find_err] phrase: ['Il', "n'", 'est', 'rien', 'moins', "qu'", 'un', 'ami', 'fidèle', 'je', 'sais', 'que', 'je', 'peux', 'compter', 'sur', 'lui']
+[find_err] matche: ['Il', "n'", 'est', 'rien', 'de', 'moins', "qu'", 'un', 'ami', 'fidèle', 'je', 'sais', 'que', 'je', 'peux', 'compter', 'sur', 'lui']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['rien', 'de', 'moins']
+[find_err] list_String_Corr: ['de']
+[find_err] list_String_Err: ['rien', 'de', 'moins']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Il n'est <rien de moins> qu'un ami fidèle, je sais que je peux compter sur lui.
+[found_matche] ERROR: rien
+[BOT] EXECUTION CLICK DONE
+return_tag: ['rien', 'de', 'moins']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ces deux dirigeants ont enfin décidé de collaborer ensemble.
+[found_matche] close matches: ['Ces deux dirigeants ont enfin décidé de <collaborer>.']
+[find_err] err: ['collaborer']
+[find_err] phrase: ['Ces', 'deux', 'dirigeants', 'ont', 'enfin', 'décidé', 'de', 'collaborer', 'ensemble']
+[find_err] matche: ['Ces', 'deux', 'dirigeants', 'ont', 'enfin', 'décidé', 'de', 'collaborer']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['collaborer']
+[find_err] list_String_Corr: []
+[find_err] list_String_Err: ['ensemble']
+[found_matche] CLOSE MATCH FOUND: Ces deux dirigeants ont enfin décidé de <collaborer>.
+[found_matche] ERROR: ensemble
+[BOT] EXECUTION CLICK DONE
+return_tag: ['ensemble']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Henri IV, Louis XIV et Louis XVI font partie de la dynastie des Bourbon.
+[found_matche] close matches: ['Henri IV, Louis XIV et Louis XVI font partie de la dynastie des <Bourbons>.']
+[find_err] err: ['Bourbons']
+[find_err] phrase: ['Henri', 'IV', 'Louis', 'XIV', 'et', 'Louis', 'XVI', 'font', 'partie', 'de', 'la', 'dynastie', 'des', 'Bourbon']
+[find_err] matche: ['Henri', 'IV', 'Louis', 'XIV', 'et', 'Louis', 'XVI', 'font', 'partie', 'de', 'la', 'dynastie', 'des', 'Bourbons']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Bourbons']
+[find_err] list_String_Corr: ['Bourbons']
+[find_err] list_String_Err: ['Bourbon']
+[found_matche] CLOSE MATCH FOUND: Henri IV, Louis XIV et Louis XVI font partie de la dynastie des <Bourbons>.
+[found_matche] ERROR: Bourbon
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Bourbon']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: De nombreux gens d'Église ont assisté à la cérémonie.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les étudiants surlignent souvent avec soin les mots importants notés dans leurs fiches.
+[found_matche] close matches: ['Les étudiants surlignent souvent avec soin les mots importants notés <sur> leurs fiches.']
+[find_err] err: ['sur']
+[find_err] phrase: ['Les', 'étudiants', 'surlignent', 'souvent', 'avec', 'soin', 'les', 'mots', 'importants', 'notés', 'dans', 'leurs', 'fiches']
+[find_err] matche: ['Les', 'étudiants', 'surlignent', 'souvent', 'avec', 'soin', 'les', 'mots', 'importants', 'notés', 'sur', 'leurs', 'fiches']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['sur']
+[find_err] list_String_Corr: ['sur']
+[find_err] list_String_Err: ['dans']
+[found_matche] CLOSE MATCH FOUND: Les étudiants surlignent souvent avec soin les mots importants notés <sur> leurs fiches.
+[found_matche] ERROR: dans
+[BOT] EXECUTION CLICK DONE
+return_tag: ['dans']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ils n'auront ainsi aucun frais de déplacement.
+[found_matche] close matches: ["Ils n'auront ainsi <aucuns> frais de déplacement."]
+[find_err] err: ['aucuns']
+[find_err] phrase: ['Ils', "n'", 'auront', 'ainsi', 'aucun', 'frais', 'de', 'déplacement']
+[find_err] matche: ['Ils', "n'", 'auront', 'ainsi', 'aucuns', 'frais', 'de', 'déplacement']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['aucuns']
+[find_err] list_String_Corr: ['aucuns']
+[find_err] list_String_Err: ['aucun']
+[found_matche] CLOSE MATCH FOUND: Ils n'auront ainsi <aucuns> frais de déplacement.
+[found_matche] ERROR: aucun
+[BOT] EXECUTION CLICK DONE
+return_tag: ['aucun']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il s'est absenté deux à trois minutes, tout au plus.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Parfait ! Nous allons enfin pouvoir démarrer la fabrication.
+[found_matche] close matches: ['Parfait ! Nous allons enfin pouvoir <lancer> la fabrication.']
+[find_err] err: ['lancer']
+[find_err] phrase: ['Parfait', '!', 'Nous', 'allons', 'enfin', 'pouvoir', 'démarrer', 'la', 'fabrication']
+[find_err] matche: ['Parfait', '!', 'Nous', 'allons', 'enfin', 'pouvoir', 'lancer', 'la', 'fabrication']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['lancer']
+[find_err] list_String_Corr: ['lancer']
+[find_err] list_String_Err: ['démarrer']
+[found_matche] CLOSE MATCH FOUND: Parfait ! Nous allons enfin pouvoir <lancer> la fabrication.
+[found_matche] ERROR: démarrer
+[BOT] EXECUTION CLICK DONE
+return_tag: ['démarrer']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Sans gant, tu risques d'avoir froid sur les pistes : le vent est glacial !
+[found_matche] close matches: ["Sans <gants>, tu risques d'avoir froid sur les pistes : le vent est glacial !"]
+[find_err] err: ['gants']
+[find_err] phrase: ['Sans', 'gant', 'tu', 'risques', "d'", 'avoir', 'froid', 'sur', 'les', 'pistes', ':', 'le', 'vent', 'est', 'glacial']
+[find_err] matche: ['Sans', 'gants', 'tu', 'risques', "d'", 'avoir', 'froid', 'sur', 'les', 'pistes', ':', 'le', 'vent', 'est', 'glacial']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['gants']
+[find_err] list_String_Corr: ['gants']
+[find_err] list_String_Err: ['gant']
+[found_matche] CLOSE MATCH FOUND: Sans <gants>, tu risques d'avoir froid sur les pistes : le vent est glacial !
+[found_matche] ERROR: gant
+[BOT] EXECUTION CLICK DONE
+return_tag: ['gant']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Depuis cinq ans, mon frère et ma belle‑sœur vivent dans le sud‑ouest.
+[found_matche] close matches: ['Depuis cinq ans, mon frère et ma belle-sœur vivent dans le <Sud-Ouest>.']
+[find_err] err: ['Sud-', 'Ouest']
+[find_err] phrase: ['Depuis', 'cinq', 'ans', 'mon', 'frère', 'et', 'ma', 'belle-', 'sœur', 'vivent', 'dans', 'le', 'sud-', 'ouest']
+[find_err] matche: ['Depuis', 'cinq', 'ans', 'mon', 'frère', 'et', 'ma', 'belle-', 'sœur', 'vivent', 'dans', 'le', 'Sud-', 'Ouest']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Sud-', 'Ouest']
+[find_err] list_String_Corr: ['Sud-', 'Ouest']
+[find_err] list_String_Err: ['sud', 'ouest']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: Depuis cinq ans, mon frère et ma belle-sœur vivent dans le <Sud-Ouest>.
+[found_matche] ERROR: sud
+[BOT] EXECUTION CLICK DONE
+return_tag: ['sud', 'ouest']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Tous ont été unanimes à condamner cette décision.
+[found_matche] close matches: ['<Ils ont été unanimes> à condamner cette décision.']
+[find_err] err: ['Ils', 'ont', 'été', 'unanimes']
+[find_err] phrase: ['Tous', 'ont', 'été', 'unanimes', 'à', 'condamner', 'cette', 'décision']
+[find_err] matche: ['Ils', 'ont', 'été', 'unanimes', 'à', 'condamner', 'cette', 'décision']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Ils', 'ont', 'été', 'unanimes']
+[find_err] list_String_Corr: ['Ils']
+[find_err] list_String_Err: ['Tous']
+[found_matche] CLOSE MATCH FOUND: <Ils ont été unanimes> à condamner cette décision.
+[found_matche] ERROR: Tous
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Tous']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Bien que ces chaussures sont usées, je n'arrive pas à les jeter.
+[found_matche] close matches: ["Bien que ces chaussures <soient> usées, je n'arrive pas à les jeter."]
+[find_err] err: ['soient']
+[find_err] phrase: ['Bien', 'que', 'ces', 'chaussures', 'sont', 'usées', 'je', "n'", 'arrive', 'pas', 'à', 'les', 'jeter']
+[find_err] matche: ['Bien', 'que', 'ces', 'chaussures', 'soient', 'usées', 'je', "n'", 'arrive', 'pas', 'à', 'les', 'jeter']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['soient']
+[find_err] list_String_Corr: ['soient']
+[find_err] list_String_Err: ['sont']
+[found_matche] CLOSE MATCH FOUND: Bien que ces chaussures <soient> usées, je n'arrive pas à les jeter.
+[found_matche] ERROR: sont
+[BOT] EXECUTION CLICK DONE
+return_tag: ['sont']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il a passé deux à trois heures dans le jardin, ce matin.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: J'ai vu cette petite annonce dans le journal.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ce sont de bonnes gens, que l'on a appréciées comme il se devait.
+[found_matche] close matches: ["Ce sont de bonnes gens, que l'on a <appréciés> comme il se devait."]
+[find_err] err: ['appréciés']
+[find_err] phrase: ['Ce', 'sont', 'de', 'bonnes', 'gens', 'que', "l'", 'on', 'a', 'appréciées', 'comme', 'il', 'se', 'devait']
+[find_err] matche: ['Ce', 'sont', 'de', 'bonnes', 'gens', 'que', "l'", 'on', 'a', 'appréciés', 'comme', 'il', 'se', 'devait']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['appréciés']
+[find_err] list_String_Corr: ['appréciés']
+[find_err] list_String_Err: ['appréciées']
+[found_matche] CLOSE MATCH FOUND: Ce sont de bonnes gens, que l'on a <appréciés> comme il se devait.
+[found_matche] ERROR: appréciées
+[BOT] EXECUTION CLICK DONE
+return_tag: ['appréciées']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est lorsque la musique s'est élevée que nous avons été les plus émus.
+[found_matche] close matches: ["C'est lorsque la musique s'est élevée que nous avons été <le> plus émus."]
+[find_err] err: ['le']
+[find_err] phrase: ["C'", 'est', 'lorsque', 'la', 'musique', "s'", 'est', 'élevée', 'que', 'nous', 'avons', 'été', 'les', 'plus', 'émus']
+[find_err] matche: ["C'", 'est', 'lorsque', 'la', 'musique', "s'", 'est', 'élevée', 'que', 'nous', 'avons', 'été', 'le', 'plus', 'émus']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['le']
+[find_err] list_String_Corr: ['le']
+[find_err] list_String_Err: ['les']
+[found_matche] CLOSE MATCH FOUND: C'est lorsque la musique s'est élevée que nous avons été <le> plus émus.
+[found_matche] ERROR: les
+[BOT] EXECUTION CLICK DONE
+return_tag: ['les']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ils discutent de l'opportunité d'ouvrir un autre magasin dans cette ville.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Il vient de ramener le cheval à l'écurie.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Les Einstein seront‑ils nombreux au xxie siècle ?
+[found_matche] close matches: ['Les <Einsteins> seront-ils nombreux au xxie siècle ?', ' seront-ils nombreux au xxie siècle ?']
+[find_err] err: ['Einsteins']
+[find_err] phrase: ['Les', 'Einstein', 'seront-', 'ils', 'nombreux', 'au', 'xxie', 'siècle']
+[find_err] matche: ['Les', 'Einsteins', 'seront-', 'ils', 'nombreux', 'au', 'xxie', 'siècle']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['Einsteins']
+[find_err] list_String_Corr: ['Einsteins']
+[find_err] list_String_Err: ['Einstein']
+[found_matche] CLOSE MATCH FOUND: Les <Einsteins> seront-ils nombreux au xxie siècle ?
+[found_matche] ERROR: Einstein
+[BOT] EXECUTION CLICK DONE
+return_tag: ['Einstein']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: En France, ce film a été interdit aux mineurs de moins de dix‑huit ans.
+[found_matche] close matches: ['En France, ce film a été interdit aux <mineurs>.']
+[find_err] err: ['mineurs']
+[find_err] phrase: ['En', 'France', 'ce', 'film', 'a', 'été', 'interdit', 'aux', 'mineurs', 'de', 'moins', 'de', 'dix-', 'huit', 'ans']
+[find_err] matche: ['En', 'France', 'ce', 'film', 'a', 'été', 'interdit', 'aux', 'mineurs']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['mineurs']
+[find_err] list_String_Corr: []
+[find_err] list_String_Err: ['de', 'moins', 'de', 'dix-', 'huit', 'ans']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: En France, ce film a été interdit aux <mineurs>.
+[found_matche] ERROR: de
+[BOT] EXECUTION CLICK DONE
+return_tag: ['de', 'moins', 'de', 'dix-', 'huit', 'ans']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Connaissez‑vous la légende du cavalier sans  ?
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] FAILED TO EXECUTE NO MATCH FOUND
+
+return_tag: not_found
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 33 questions
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ces vacances n'ont pas été reposantes, tant s'en faut !
+[found_matche] close matches: ["Cette tenue n'était pas très élégante, <tant> s'en faut !", "Cette remarque n'était pas délicate, <tant> s'en faut !", "Cette décision n'a pas fait l'unanimité, <tant> s'en faut !"]
+[find_err] err: ['tant']
+[find_err] phrase: ['Ces', 'vacances', "n'", 'ont', 'pas', 'été', 'reposantes', 'tant', "s'", 'en', 'faut']
+[find_err] matche: ['Cette', 'tenue', "n'", 'était', 'pas', 'très', 'élégante', 'tant', "s'", 'en', 'faut']
+[find_err] Words_err: ['tant']
+[find_err] list_String_Corr: ['Cette', 'tenue', 'était', 'très', 'élégante']
+[find_err] list_String_Err: ['Ces', 'vacances', 'ont', 'été', 'reposantes']
+[find_err] Close Match INCORRECT
+
+[find_err] err: ['tant']
+[find_err] phrase: ['Ces', 'vacances', "n'", 'ont', 'pas', 'été', 'reposantes', 'tant', "s'", 'en', 'faut']
+[find_err] matche: ['Cette', 'remarque', "n'", 'était', 'pas', 'délicate', 'tant', "s'", 'en', 'faut']
+[find_err] Words_err: ['tant']
+[find_err] list_String_Corr: ['Cette', 'remarque', 'était', 'délicate']
+[find_err] list_String_Err: ['Ces', 'vacances', 'ont', 'été', 'reposantes']
+[find_err] Close Match INCORRECT
+
+[find_err] err: ['tant']
+[find_err] phrase: ['Ces', 'vacances', "n'", 'ont', 'pas', 'été', 'reposantes', 'tant', "s'", 'en', 'faut']
+[find_err] matche: ['Cette', 'décision', "n'", 'a', 'pas', 'fait', "l'", 'unanimité', 'tant', "s'", 'en', 'faut']
+[find_err] Words_err: ['tant']
+[find_err] list_String_Corr: ['Cette', 'décision', 'a', 'fait', "l'", 'unanimité']
+[find_err] list_String_Err: ['Ces', 'vacances', 'ont', 'été', 'reposantes']
+[find_err] Close Match INCORRECT
+
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Je suis désolé, nous ne remboursons frais d'inscription.
+[found_matche] close matches: ["Je suis désolé, nous ne remboursons <aucuns> frais d'inscription."]
+[find_err] err: ['aucuns']
+[find_err] phrase: ['Je', 'suis', 'désolé', 'nous', 'ne', 'remboursons', 'frais', "d'", 'inscription']
+[find_err] matche: ['Je', 'suis', 'désolé', 'nous', 'ne', 'remboursons', 'aucuns', 'frais', "d'", 'inscription']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['aucuns']
+[find_err] list_String_Corr: ['aucuns']
+[find_err] list_String_Err: ['aucuns']
+[found_matche] CLOSE MATCH FOUND: Je suis désolé, nous ne remboursons <aucuns> frais d'inscription.
+[found_matche] ERROR: aucuns
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['aucuns']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Bien qu'il n'a que douze ans, il sait déjà qu'il veut être archéologue.
+[found_matche] close matches: ["Bien qu'il n'<ait> que douze ans, il sait déjà qu'il veut être archéologue."]
+[find_err] err: ['ait']
+[find_err] phrase: ['Bien', "qu'", 'il', "n'", 'a', 'que', 'douze', 'ans', 'il', 'sait', 'déjà', "qu'", 'il', 'veut', 'être', 'archéologue']
+[find_err] matche: ['Bien', "qu'", 'il', "n'", 'ait', 'que', 'douze', 'ans', 'il', 'sait', 'déjà', "qu'", 'il', 'veut', 'être', 'archéologue']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['ait']
+[find_err] list_String_Corr: ['ait']
+[find_err] list_String_Err: ['a']
+[found_matche] CLOSE MATCH FOUND: Bien qu'il n'<ait> que douze ans, il sait déjà qu'il veut être archéologue.
+[found_matche] ERROR: a
+[BOT] EXECUTION CLICK DONE
+return_tag: ['a']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: C'est dans le dernier acte que cette merveilleuse comédienne est la plus émouvante.
+[found_matche] close matches: ["C'est dans le dernier acte que cette merveilleuse comédienne est <le> plus émouvante."]
+[find_err] err: ['le']
+[find_err] phrase: ["C'", 'est', 'dans', 'le', 'dernier', 'acte', 'que', 'cette', 'merveilleuse', 'comédienne', 'est', 'la', 'plus', 'émouvante']
+[find_err] matche: ["C'", 'est', 'dans', 'le', 'dernier', 'acte', 'que', 'cette', 'merveilleuse', 'comédienne', 'est', 'le', 'plus', 'émouvante']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['le']
+[find_err] list_String_Corr: ['le']
+[find_err] list_String_Err: ['la']
+[found_matche] CLOSE MATCH FOUND: C'est dans le dernier acte que cette merveilleuse comédienne est <le> plus émouvante.
+[found_matche] ERROR: la
+[BOT] EXECUTION CLICK DONE
+return_tag: ['la']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Ces vilaines gens se sont compromises dans une sale affaire.
+[found_matche] close matches: ['Ces vilaines gens se sont <compromis> dans une sale affaire.', 'Ces vieilles gens ne sont pas du tout <aigris>.']
+[find_err] err: ['compromis']
+[find_err] phrase: ['Ces', 'vilaines', 'gens', 'se', 'sont', 'compromises', 'dans', 'une', 'sale', 'affaire']
+[find_err] matche: ['Ces', 'vilaines', 'gens', 'se', 'sont', 'compromis', 'dans', 'une', 'sale', 'affaire']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['compromis']
+[find_err] list_String_Corr: ['compromis']
+[find_err] list_String_Err: ['compromises']
+[found_matche] CLOSE MATCH FOUND: Ces vilaines gens se sont <compromis> dans une sale affaire.
+[found_matche] ERROR: compromises
+[BOT] EXECUTION CLICK DONE
+return_tag: ['compromises']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La nuit, l'hôtel n'était rien moins que calme, nous avons pu dormir à poings fermés.
+[found_matche] close matches: ["La nuit, l'hôtel n'était <rien de moins> que calme, nous avons pu dormir à poings fermés."]
+[find_err] err: ['rien', 'de', 'moins']
+[find_err] phrase: ['La', 'nuit', "l'", 'hôtel', "n'", 'était', 'rien', 'moins', 'que', 'calme', 'nous', 'avons', 'pu', 'dormir', 'à', 'poings', 'fermés']
+[find_err] matche: ['La', 'nuit', "l'", 'hôtel', "n'", 'était', 'rien', 'de', 'moins', 'que', 'calme', 'nous', 'avons', 'pu', 'dormir', 'à', 'poings', 'fermés']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['rien', 'de', 'moins']
+[find_err] list_String_Corr: ['de']
+[find_err] list_String_Err: ['rien', 'de', 'moins']
+[auto_learning] no error found in memory
+[found_matche] CLOSE MATCH FOUND: La nuit, l'hôtel n'était <rien de moins> que calme, nous avons pu dormir à poings fermés.
+[found_matche] ERROR: rien
+[BOT] EXECUTION CLICK DONE
+return_tag: ['rien', 'de', 'moins']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Laissez‑moi juger seul de l'opportunité de cette révélation.
+[found_matche] close matches: []
+[found_matche] NO CLOSE MATCH FOUND
+[found_matche] NO ERROR
+[find_err] No Close Match
+[BOT] EXECUTION NO MISTAKE DONE
+return_tag: []
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Malheureusement, l'entreprise n'a pas pu débuter les travaux à la date prévue.
+[found_matche] close matches: ["Malheureusement, l'entreprise n'a pas pu <commencer> les travaux à la date prévue."]
+[find_err] err: ['commencer']
+[find_err] phrase: ['Malheureusement', "l'", 'entreprise', "n'", 'a', 'pas', 'pu', 'débuter', 'les', 'travaux', 'à', 'la', 'date', 'prévue']
+[find_err] matche: ['Malheureusement', "l'", 'entreprise', "n'", 'a', 'pas', 'pu', 'commencer', 'les', 'travaux', 'à', 'la', 'date', 'prévue']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['commencer']
+[find_err] list_String_Corr: ['commencer']
+[find_err] list_String_Err: ['débuter']
+[found_matche] CLOSE MATCH FOUND: Malheureusement, l'entreprise n'a pas pu <commencer> les travaux à la date prévue.
+[found_matche] ERROR: débuter
+[BOT] EXECUTION CLICK DONE
+return_tag: ['débuter']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Vous retrouverez tous les prix de nos matelas sur notre catalogue.
+[found_matche] close matches: ['Vous retrouverez tous les prix de nos matelas <dans> notre catalogue.']
+[find_err] err: ['dans']
+[find_err] phrase: ['Vous', 'retrouverez', 'tous', 'les', 'prix', 'de', 'nos', 'matelas', 'sur', 'notre', 'catalogue']
+[find_err] matche: ['Vous', 'retrouverez', 'tous', 'les', 'prix', 'de', 'nos', 'matelas', 'dans', 'notre', 'catalogue']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['dans']
+[find_err] list_String_Corr: ['dans']
+[find_err] list_String_Err: ['sur']
+[found_matche] CLOSE MATCH FOUND: Vous retrouverez tous les prix de nos matelas <dans> notre catalogue.
+[found_matche] ERROR: sur
+[BOT] EXECUTION CLICK DONE
+return_tag: ['sur']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: Est‑ce que tu peux amener la salade et le fromage ?
+[found_matche] close matches: ['Est-ce que tu peux <apporter> la salade et le fromage ?']
+[find_err] err: ['apporter']
+[find_err] phrase: ['Est-', 'ce', 'que', 'tu', 'peux', 'amener', 'la', 'salade', 'et', 'le', 'fromage']
+[find_err] matche: ['Est-', 'ce', 'que', 'tu', 'peux', 'apporter', 'la', 'salade', 'et', 'le', 'fromage']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['apporter']
+[find_err] list_String_Corr: ['apporter']
+[find_err] list_String_Err: ['amener']
+[found_matche] CLOSE MATCH FOUND: Est-ce que tu peux <apporter> la salade et le fromage ?
+[found_matche] ERROR: amener
+[BOT] EXECUTION CLICK DONE
+return_tag: ['amener']
+
+[BOT] ####### WORKING #######
+[BOT] PHRASE: La tempête se déplace maintenant vers le du pays.
+[found_matche] close matches: ['La tempête se déplace maintenant vers le <nord> du pays.']
+[find_err] err: ['nord']
+[find_err] phrase: ['La', 'tempête', 'se', 'déplace', 'maintenant', 'vers', 'le', 'du', 'pays']
+[find_err] matche: ['La', 'tempête', 'se', 'déplace', 'maintenant', 'vers', 'le', 'nord', 'du', 'pays']
+[find_err] Close Match CORRECT
+[find_err] Words_err: ['nord']
+[find_err] list_String_Corr: ['nord']
+[find_err] list_String_Err: ['nord']
+[found_matche] CLOSE MATCH FOUND: La tempête se déplace maintenant vers le <nord> du pays.
+[found_matche] ERROR: nord
+[BOT] EXECUTION AUDIO DONE
+return_tag: ['nord']
+
+[BOT] ####### WORKING #######
+return_tag: no_sentence
+
+[BOT_ROUTINE] I am a bot, and this action was performed automatically.
+I answered 11 questions

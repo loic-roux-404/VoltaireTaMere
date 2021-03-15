@@ -139,12 +139,12 @@ def found_good_one(phrase, match, err_in_phrase):
 class auto_learning():
     def add_data(self, list_err, real_err):
         print_debug("[auto_learning] failed to locate error, learning...", "yellow")
-        f = open(".\\file\\auto_learning_data.txt", "a", encoding="utf-8")
+        f = open("./file/auto_learning_data.txt", "a", encoding="utf-8")
         f.write(str(list_err) + " " + real_err + "\n")
         f.close()
 
     def memory_data(self, input_list):
-        f = open(".\\file\\auto_learning_data.txt", "r", encoding="utf-8")
+        f = open("./file/auto_learning_data.txt", "r", encoding="utf-8")
         memory_data = f.read()
         memory_data_list = []
         extr = " "
@@ -171,7 +171,7 @@ class auto_learning():
     
     def add_match(self, sentence, real_err):
         print_debug("[auto_learning] failed to found match, learning...", "yellow")
-        f = open(".\\file\\auto_learning_match.txt", "a", encoding="utf-8")
+        f = open("./file/auto_learning_match.txt", "a", encoding="utf-8")
         sentence = " "+sentence
         try:
             sentence = sentence[ :sentence.index(" "+real_err)] + " <@" + real_err + ">" + sentence[ sentence.index(" "+real_err)+len(real_err)+1:] + "\n"
@@ -184,7 +184,7 @@ class auto_learning():
         f.close()
     
     def memory_match(self, sentence):
-        f = open(".\\file\\auto_learning_match.txt", "r", encoding="utf-8")
+        f = open("./file/auto_learning_match.txt", "r", encoding="utf-8")
         memory_match = f.read()
         memory_match_list = []
         extr = " "

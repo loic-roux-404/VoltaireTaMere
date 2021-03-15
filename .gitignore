@@ -1,0 +1,4 @@
+assets/log.txt
+__pycache__
+file/DEBUG.txt
+*.log

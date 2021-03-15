@@ -5,6 +5,7 @@ from File import Module, print_debug, found_data, connect, write_data
 from routine import BOT, MANUAL
 from threading import Thread
 from Question import auto_learning
+from lib_platforms import open_file
 
 class GUI:
     def __init__(self,driver):
@@ -12,18 +13,18 @@ class GUI:
         self.root.title("VoltaireTaMere")
         self.root.resizable(False, False)
         self.root.geometry('600x350')
-        self.root.iconphoto(True, PhotoImage(file = "asset\\VoltaireTaMere_icon[PNG].png"))
+        self.root.iconphoto(True, PhotoImage(file = "asset/VoltaireTaMere_icon[PNG].png"))
         self.root.configure(bg='#23272A')
         
-        self.Auto_off = PhotoImage(file = "asset\\Boutton_Auto_off.png")
-        self.Auto_on = PhotoImage(file = "asset\\Boutton_Auto_on.png")
-        self.Manual = PhotoImage(file = "asset\\Boutton_Manuel.png")
-        self.back = PhotoImage(file = "asset\\Boutton_Retour.png")
-        self.load_file = PhotoImage(file = "asset\\Boutton_Load.png")
-        self.Quitter = PhotoImage(file = "asset\\boutton_Quitter.png")
-        self.BG1 = PhotoImage(file = "asset\\Menu_1.png")
-        self.BG2 = PhotoImage(file = "asset\\Menu_2.png")
-        self.BG3 = PhotoImage(file = "asset\\Menu_3.png")
+        self.Auto_off = PhotoImage(file = "asset/Boutton_Auto_off.png")
+        self.Auto_on = PhotoImage(file = "asset/Boutton_Auto_on.png")
+        self.Manual = PhotoImage(file = "asset/Boutton_Manuel.png")
+        self.back = PhotoImage(file = "asset/Boutton_Retour.png")
+        self.load_file = PhotoImage(file = "asset/Boutton_Load.png")
+        self.Quitter = PhotoImage(file = "asset/boutton_Quitter.png")
+        self.BG1 = PhotoImage(file = "asset/Menu_1.png")
+        self.BG2 = PhotoImage(file = "asset/Menu_2.png")
+        self.BG3 = PhotoImage(file = "asset/Menu_3.png")
 
         self.driver = driver
         self.module = Module("")
@@ -140,7 +141,7 @@ class GUI:
                             activebackground='#a2d417',
                             bd = 0)
         self.SousMenuAide = Menu(self.menuAide, fg='#ffffff', bg='#2c2e30',activebackground='#a2d417')
-        self.SousMenuAide.add_command(label='Notice', command = lambda: os.startfile(".\\file\\NOTICE.pdf"))
+        self.SousMenuAide.add_command(label='Notice', command = lambda: open_file("./file/NOTICE.pdf"))
         self.SousMenuAide.add_command(label='réinitialiser Login', command = lambda: [Login(self.driver, self.root)])
         self.menuAide.configure(menu=self.SousMenuAide)
 
@@ -257,7 +258,7 @@ class GUI:
         self.log.place(x=30, y=103)
         self.menuAide.place(x=555, y=0)
         self.menuOption.place(x=500, y=0)
-        os.startfile(".\\Modules\\Custom\\Module1.txt")
+        open_file("./Modules/Custom/Module1.txt")
     def Menu_4(self):
         self.btn_back["command"] = lambda: [ self.Menu_Unpack(),self.Menu_1(self.BG1), 
                                             write_data("./file/options.txt","time", self.time_buffer.get()),
@@ -307,9 +308,9 @@ class GUI:
 
     def init_module(self):
         try:
-            self.module = Module(".\\Modules\\"+ self.prgm.get() + "\\Module"+ str(self.listB_Module.curselection()[0] + 1)+ ".txt")
+            self.module = Module("./Modules/"+ self.prgm.get() + "/Module"+ str(self.listB_Module.curselection()[0] + 1)+ ".txt")
         except:
-            self.module = Module(".\\Modules\\Custom\\Module1.txt")
+            self.module = Module("./Modules/Custom/Module1.txt")
         
         if self.module.data == []:
             self.log.insert("end","erreur aucun fichier chargé\n","red")
@@ -355,17 +356,26 @@ class GUI:
             self.number_q += 1
             if self.module.test_blanc == False:
                 if self.driver.find_elements_by_xpath("//span[@title='Mauvaise réponse']") != [] and return_tag != ["auto_fail"]:
-                    text = self.driver.find_elements_by_xpath("//span[@class = 'answerWord']/span[@class = 'pointAndClickSpan']")[1].text
+                    text = ''
+                    answer_word_els = self.driver.find_elements_by_xpath("//span[@class = 'answerWord']/span[@class = 'pointAndClickSpan']")                 
+                    if len(answer_word_els) >= 1:
+                        text = answer_word_els[1].text
+                    else:
+                        text = answer_word_els[0].text or ""
+
                     if return_tag == []:
                         auto_learning().add_match( self.driver.find_element_by_class_name("sentence").text, text)
                     else:
                         auto_learning().add_data( return_tag, text)
                     self.log.insert("end","erreur détéctée apprentissage...\n","green")
-
-                self.driver.find_element_by_class_name("nextButton").click()
+                
+                try:
+                    self.driver.find_element_by_class_name("nextButton").click()
+                except Exception:
+                    pass
 
             self.log.insert("end","["+str(self.number_q)+"]: Clique fait !\n","green")
-            self.log.insert("end",open(".\\file\\VTMtext.txt","r",encoding="utf-8").read())
+            self.log.insert("end",open("./file/VTMtext.txt", "r", encoding="utf-8").read())
             self.log.insert("end","\n\nWaiting...\n","green")
             i = 0
             while i < self.time_next.get() and self.bot_on:
@@ -373,7 +383,7 @@ class GUI:
                 i += 1
 
         self.bot_on = False
-        self.btn_auto["image"]=self.Auto_off
+        self.btn_auto["image"] = self.Auto_off
         self.time_next.set(found_data("./file/options.txt", "time", "int"))
         print_debug("[BOT_ROUTINE] I am a bot, and this action was performed automatically.\nI answered "+str(self.number_q)+" questions","green")
         self.log.insert("end","I am a bot, and this action was performed automatically.\nI answered "+str(self.number_q)+" questions\n","green")
@@ -392,23 +402,23 @@ class GUI:
         else:
             self.log.insert("end","la faute est: "+ return_tag + "\n","green")
         
-        self.log.insert("end",open(".\\file\\VTMtext.txt","r",encoding="utf-8").read())
+        self.log.insert("end",open("./file/VTMtext.txt","r",encoding="utf-8").read())
         
 class Login:
     def __init__(self, driver, parent=None):
-        os.startfile(".\\file\\NOTICE.pdf")
+        open_file("./file/NOTICE.pdf")
         if parent == None:
             self.root = Tk()
         else:
             self.root = Toplevel(parent)
-            self.root.iconphoto(True, PhotoImage(file = "asset\\VoltaireTaMere_icon[PNG].png"))
+            self.root.iconphoto(True, PhotoImage(file = "asset/VoltaireTaMere_icon[PNG].png"))
         self.driver =  driver
         self.root.title("VoltaireTaMere")
         self.root.resizable(False, False)
         self.root.geometry('240x180')
         self.root.configure(bg='#23272A')
 
-        self.flog = open(".\\file\\log.txt","w", encoding="utf-8")
+        self.flog = open("./file/log.txt","w", encoding="utf-8")
         self.User = StringVar()
         self.Mdp = StringVar()
         self.a = Label (self.root,

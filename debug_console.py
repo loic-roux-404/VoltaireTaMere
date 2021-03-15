@@ -5,6 +5,7 @@ from selenium import webdriver
 from routine import BOT
 from init import pop_up
 from GUI import GUI
+from lib_platforms import open_file
 
 module_load = None
 driver_ = None
@@ -84,7 +85,7 @@ class cmd:
             driver_ = webdriver.Chrome()
             driver_.get("https://www.projet-voltaire.fr/voltaire/com.woonoz.gwt.woonoz.Voltaire/Voltaire.html?returnUrl=www.projet-voltaire.fr/choix-parcours/&applicationCode=pv")
             driver_.implicitly_wait(1)
-            flog = open(".\\file\\log.txt","r+", encoding="utf-8")
+            flog = open("./file/log.txt","r+", encoding="utf-8")
             log = flog.read()
             logIn = log[log.index("login:") : log.index("mdp:")].replace("login:","")
             mdp = log[log.index("mdp:") : len(log)].replace("mdp:","")
@@ -102,13 +103,13 @@ class cmd:
             print("learning_match: open file with learned sentence")
             print("\\*******************/")
         def debug(self):
-            os.startfile(".\\file\\DEBUG.txt")
+            open_file("./file/DEBUG.txt")
         def log(self):
-            os.startfile(".\\file\\log.txt")
+            open_file("./file/log.txt")
         def learning_data(self):
-            os.startfile(".\\file\\auto_learning_data.txt")
+            open_file("./file/auto_learning_data.txt")
         def learning_match(self):
-            os.startfile(".\\file\\auto_learning_match.txt")
+            open_file("./file/auto_learning_match.txt")
     
     class learning:
         def help(self):

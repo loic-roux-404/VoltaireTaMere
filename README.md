@@ -1,7 +1,7 @@
 ------------------------------------
 SITE: https://sites.google.com/view/voltairetamere/accueil
 ------------------------------------
----------Version Napoléon---------
+---------Version Napoleon---------
 
 Précision améliorée; 
 Nouvel algorithme d'auto apprentissage; 
@@ -25,3 +25,14 @@ IL CE PEUT QUE L'ANTIVIRUS BLOQUE L’EXÉCUTION DU .EXE CAR LE FICHIER EST INCO
 Si vous avez des doute quand a la sûreté de ce fichier vous pouvez utiliser lancer Napoleon.py mais un environnement Python 3.7.9 ou plus est requis.
 
 Les questions sur le code c'est par ici: Kim Jung Hun#3359
+
+# Avec la ligne de commande (sans installer)
+
+# Mac
+
+`./mac_installer.sh`
+
+# Win
+> powershell
+
+`.\win_installer.ps1`

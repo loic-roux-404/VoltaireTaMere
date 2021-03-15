@@ -33,7 +33,7 @@ class pop_up:
         self.root.title(self.option.title)
         self.root.resizable(False, False)
         self.root.geometry(self.option.size)
-        self.root.iconphoto(True, PhotoImage(file = "asset\\VoltaireTaMere_icon[PNG].png"))
+        self.root.iconphoto(True, PhotoImage(file = "asset/VoltaireTaMere_icon[PNG].png"))
         self.root.configure(bg='#23272A')
 
         Label(self.root, text=self.option.txt, bg='#23272A', fg='#ffffff', font=('Helvetica', '10',"bold")).pack()
@@ -55,7 +55,7 @@ class pop_up:
         self.option.print_self()
 
 def init():
-    open(".\\file\\DEBUG.txt","w",encoding="utf-8").close()
+    open("./file/DEBUG.txt","w",encoding="utf-8").close()
     try:
         option = chrome_options()
         option.add_argument ("--headless")
@@ -78,7 +78,7 @@ def init():
                 e.start_root()
                 e.root.mainloop()
                 exit()
-
+    return
     v_driver.get("https://sites.google.com/view/voltairetamere/init")
     v_driver.implicitly_wait(1)
     init_command = v_driver.find_element_by_class_name("yaqOZd").text

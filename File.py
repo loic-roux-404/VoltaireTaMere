@@ -2,7 +2,7 @@ from termcolor import colored
 
 def print_debug(string, color):
     print(colored(string,color))
-    f = open(".\\file\\DEBUG.txt","a",encoding="utf-8")
+    f = open("./file/DEBUG.txt","a",encoding="utf-8")
     f.write(string+"\n")
     f.close()
 
@@ -33,8 +33,8 @@ def write_data(file, name, data):
     f.close()
 
 def connect(driver):
-    logIn= found_data(".\\file\\log.txt", "login","str")
-    mdp = found_data(".\\file\\log.txt", "mdp","str")
+    logIn= found_data("./file/log.txt", "login","str")
+    mdp = found_data("./file/log.txt", "mdp","str")
     try:
         driver.find_element_by_id("btn_home_sortir").click()
     except:
@@ -49,7 +49,7 @@ class Module:
     def __init__(self,path):
         self.path = path
         self.data = self.extract()
-        self.test_blanc = self.path == ".\\Modules\\Supérieur\\Module11.txt" or self.path == ".\\Modules\\pont_Supérieur\\Module9.txt"
+        self.test_blanc = self.path == "Modules/Supérieur/Module11.txt" or self.path == "Modules/pont_Supérieur/Module9.txt"
     
     def extract(self):
         try:

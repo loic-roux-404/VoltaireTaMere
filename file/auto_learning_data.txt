@@ -2,4 +2,5 @@
 ['presque', 'à'] à
 ['nous', 'débutons'] débutons
 ['pallier', 'une'] pallier
-['tout','de','suite'] suite
+['tout','de','suite'] suite['15'] 15
+['5h'] 5h

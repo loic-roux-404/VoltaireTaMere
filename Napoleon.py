@@ -1,24 +1,4 @@
-from GUI import GUI, Login
-from File import print_debug, found_data, connect
-from init import init, pop_up
-from selenium import webdriver
-from os import path
-import subprocess
-init()
-
-try:
-    ch_output = subprocess.Popen(["chromedriver"])
-    driver = webdriver.Chrome()
-except:
-    print_debug("[DRIVER] don't detect Chrome", "yellow")
-
-driver.implicitly_wait(1)
-
-if open("./file/log.txt","r", encoding="utf-8").read() == "" or open("./file/log.txt","r", encoding="utf-8").read() == "None":
-    Login(driver).root.mainloop()
-else:
-    connect(driver)
-
-gui = GUI(driver)
-gui.Menu_1(gui.BG1)
-gui.root.mainloop()
+Alors j'ai essayé de te contacter sur Twitter, aucune réponse donc j'ai décidé de faire ça plus obvious avec un pull request. 
+Je te demande de supprimer cette repo (ou du moins de la mettre en priver) s'il te plaît. En effet je suis en conseil de discipline avec mon école 
+et voir ce logiciel définitivement disparaitre pourrait m'aider à m'en sortir un peu mieux.
+pour plus de detail viens MP discord Kim Jung Hun#3359
